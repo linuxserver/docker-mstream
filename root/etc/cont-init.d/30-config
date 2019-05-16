@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bash
+
+# make folders
+mkdir -p \
+	/config/album_art \
+	/config/db
+
+# permissions
+chown abc:abc -R \
+	/config 
