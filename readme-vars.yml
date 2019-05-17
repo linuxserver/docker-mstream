@@ -1,8 +1,8 @@
-project_name: mstream
-project_url: "https://github.com/IrosTheBeggar/mStream"
+project_name: mStream
+project_url: "https://mstream.io/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream.png"
 project_blurb: |
-  [{{ project_name|capitalize }}]({{ project_url }}) is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere.
+  [{{ project_name }}]({{ project_url }}) is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 
 # supported architectures
@@ -22,13 +22,15 @@ param_ports:
   - { external_port: "3000", internal_port: "3000", port_desc: "The port for the mStream webinterface" }
 param_usage_include_env: true
 param_env_vars:
+  - { env_var: "USER", env_value: "admin", desc: "Set username to login" }
+  - { env_var: "PASSWORD", env_value: "password", desc: "Set password for user" }
+  - { env_var: "USE_JSON", env_value: "true/false", desc: "Run mStream using the config specified at `/config/config.json`, note this will mean user/password is defined in `config.json`" }
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use e.g. Europe/London" }
-
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
-  Access the webui at `http://<your-ip>:3000`, for more information check out [{{ project_name|capitalize }}]({{ project_url }}).
+  Access the webui at `http://<your-ip>:3000`, For most users specifying a USER and PASSWORD is sufficient, the `USE_JSON` option allows for more granular control of mStream, but with added complexity, requiring manual editing of `config.json` to configure your install, for more information check out [{{ project_name|capitalize }}](https://github.com/IrosTheBeggar/mStream/blob/master/docs/json_config.md#json-config).
 
 # changelog
 changelogs:
-  - { date: "28.09.16:", desc: "Inital Release" }
+  - { date: "18.05.19:", desc: "Inital Release" }

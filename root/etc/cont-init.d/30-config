@@ -1,9 +1,15 @@
 #!/usr/bin/with-contenv bash
 
-# make folders
-mkdir -p \
-	/config/album_art \
-	/config/db
+# make folders if don't exist
+[[ ! -d /config/album-art ]] && \
+    mkdir -p /config/album-art
+
+[[ ! - d /config/db ]] && \
+    mkdir -p /config/db
+
+# copy config.json if doesn't exist
+[[ ! -e /config/config.json ]] && \
+    cp /defaults/config.json /config/config.json
 
 # permissions
 chown abc:abc -R \

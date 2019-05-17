@@ -2,5 +2,10 @@
 
 cd /opt/mstream || exit
 
-exec \
-	s6-setuidgid abc mstream -j /config/config.json 
+if [ "$USE_JSON" == "true" ]; then
+    exec \
+	    s6-setuidgid abc mstream -j /config/config.json
+else
+    exec \
+	    s6-setuidgid abc mstream -m /music -I /config/album-art/ -d /config/db/ -u ${USER} -x ${PASSWORD}
+fi
