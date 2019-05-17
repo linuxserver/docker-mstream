@@ -3,4 +3,4 @@
 cd /opt/mstream || exit
 
 exec \
-	s6-setuidgid abc /opt/mstream/mstream -d /config/db -I /config/album-art -j /config/config.json -m /music -u ${USER} -x ${PASSWORD} 
+	s6-setuidgid abc mstream -j /config/config.json 

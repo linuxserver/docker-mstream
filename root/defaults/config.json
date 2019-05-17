@@ -1,0 +1,28 @@
+{
+  "port": 3000,
+  "webAppDirectory": "public",
+  "secret": "",
+  "writeLogs": true,
+  "noUpload": false,
+  "scanOptions": {
+    "skipImg": true,
+    "scanInterval": 1.5,
+    "pause": 50,
+    "saveInterval": 500,
+    "bootScanDelay": 15
+  },
+  "storage": {
+    "albumArtDirectory": "/config/album-art",
+    "dbDirectory": "/config",
+    "logsDirectory": "/config/logs"
+  },
+  "folders": {
+    "music": "/music"
+  },
+  "users": {
+    "admin": {
+      "password":"password",
+      "vpaths": "music"
+    }
+  }
+}

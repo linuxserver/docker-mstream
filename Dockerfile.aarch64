@@ -10,6 +10,7 @@ LABEL maintainer="chbmb"
 RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache --virtual=build-dependencies \
+    curl \
 	git && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache --upgrade \
@@ -30,7 +31,7 @@ RUN \
     /opt/mstream/ --strip-components=1 && \
  cd /opt/mstream && \
  npm install --only=production && \
- npm link
+ npm link && \
  echo "**** cleanup ****" && \
  apk del --purge \
 	build-dependencies && \
