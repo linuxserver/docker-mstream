@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv bash
+
+# make our folders
+[[ ! -d /config/keys ]] && \
+mkdir -p \
+	/config/keys
+
+# create keys
+[[ ! -e /config/keys/certificate.pem ]] && \
+	openssl req -x509 -nodes -days 3650 \
+	-newkey rsa:2048 -keyout /config/keys/private-key.pem  -out /config/keys/certificate.pem \
+	-subj "/CN=mstream"

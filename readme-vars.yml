@@ -2,7 +2,7 @@ project_name: mstream
 project_url: "https://mstream.io/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png"
 project_blurb: |
-  [{{ project_name }}]({{ project_url }}) is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere.
+  [{{ project_name }}]({{ project_url }}) is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere.  There are mobile apps available for both Android and iPhone.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
 
 # supported architectures
@@ -29,7 +29,7 @@ param_env_vars:
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
-  Access the webui at `http://<your-ip>:3000`, For most users specifying a USER and PASSWORD is sufficient, the `USE_JSON` option allows for more granular control of mStream, but with added complexity, requiring manual editing of `config.json` to configure your install, for more information check out [{{ project_name|capitalize }}](https://github.com/IrosTheBeggar/mStream/blob/master/docs/json_config.md#json-config).
+  Access the webui at `http://<your-ip>:3000`, For most users specifying a `$USER` and `$PASSWORD` is sufficient, the `USE_JSON` option allows for more granular control of mStream, but with added complexity, requiring manual editing of `config.json` to configure your install, for more information check out [{{ project_name|capitalize }}](https://github.com/IrosTheBeggar/mStream/blob/master/docs/json_config.md#json-config).  Note using this option will make the default username:password `admin` and `password` respectively and any environmental variables will be ignored.
 
 # changelog
 changelogs:
