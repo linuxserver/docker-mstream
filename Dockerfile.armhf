@@ -11,7 +11,7 @@ RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache --virtual=build-dependencies \
 	curl \
-	git && \
+    git && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache --upgrade \
 	nodejs \
