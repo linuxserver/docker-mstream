@@ -1,6 +1,6 @@
-project_name: mStream
+project_name: mstream
 project_url: "https://mstream.io/"
-project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream.png"
+project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/mstream-icon.png"
 project_blurb: |
   [{{ project_name }}]({{ project_url }}) is a personal music streaming server. You can use mStream to stream your music from your home computer to any device, anywhere.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
