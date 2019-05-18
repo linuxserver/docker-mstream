@@ -10,5 +10,5 @@ mkdir -p \
 
 # permissions
 chown abc:abc -R \
-	/config 
+    /config 
     

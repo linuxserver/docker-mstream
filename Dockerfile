@@ -14,30 +14,30 @@ RUN \
     git && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache --upgrade \
-	nodejs \
-	npm \
-	openssl && \
+    nodejs \
+    npm \
+    openssl && \
  echo "**** install app ****" && \
  mkdir -p \
-	/opt/mstream && \
+    /opt/mstream && \
  if [ -z ${MSTREAM_RELEASE+x} ]; then \
- 	MSTREAM_RELEASE=$(curl -sX GET "https://api.github.com/repos/IrosTheBeggar/mStream/releases/latest" \
+     MSTREAM_RELEASE=$(curl -sX GET "https://api.github.com/repos/IrosTheBeggar/mStream/releases/latest" \
         | awk '/tag_name/{print $4;exit}' FS='[""]'); \
  fi && \
  curl -o \
  /tmp/mstream.tar.gz -L \
-	"https://github.com/IrosTheBeggar/mStream/archive/${MSTREAM_RELEASE}.tar.gz" && \
+    "https://github.com/IrosTheBeggar/mStream/archive/${MSTREAM_RELEASE}.tar.gz" && \
  tar xzf \
-	/tmp/mstream.tar.gz -C \
+    /tmp/mstream.tar.gz -C \
     /opt/mstream/ --strip-components=1 && \
  cd /opt/mstream && \
  npm install --only=production && \
  npm link && \
  echo "**** cleanup ****" && \
  apk del --purge \
-	build-dependencies && \
+    build-dependencies && \
  rm -rf \
-	/tmp/*
+    /tmp/*
 
 # add local files
 COPY root/ /
