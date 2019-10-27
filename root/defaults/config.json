@@ -15,12 +15,12 @@
     "dbDirectory": "/config/db"
   },
   "folders": {
-    "library": "/music"
+    "library": { "root": "/music" }
   },
   "users": {
     "admin": {
       "password":"password",
-      "vpaths": "library",
+      "vpaths": ["library"],
       "lastfm-user": "username",
       "lastfm-password": "password"
       }
