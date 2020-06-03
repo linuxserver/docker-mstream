@@ -12,6 +12,8 @@ libattr-2.4.48-r0
 libc-utils-0.7.2-r0
 libcrypto1.1-1.1.1g-r0
 libgcc-9.2.0-r4
+libintl-0.20.1-r2
+libproc-3.3.16-r0
 libssl1.1-1.1.1g-r0
 libstdc++-9.2.0-r4
 libtls-standalone-2.9.1-r0
@@ -25,6 +27,7 @@ nghttp2-libs-1.40.0-r0
 nodejs-12.15.0-r1
 npm-12.15.0-r1
 openssl-1.1.1g-r0
+procps-3.3.16-r0
 readline-8.0.1-r0
 scanelf-1.2.4-r0
 shadow-4.7-r1
