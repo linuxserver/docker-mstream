@@ -11,11 +11,11 @@ coreutils-8.32-r0
 libacl-2.2.53-r0
 libattr-2.4.48-r0
 libc-utils-0.7.2-r3
-libcrypto1.1-1.1.1g-r0
+libcrypto1.1-1.1.1i-r0
 libgcc-9.3.0-r2
 libintl-0.20.2-r0
 libproc-3.3.16-r0
-libssl1.1-1.1.1g-r0
+libssl1.1-1.1.1i-r0
 libstdc++-9.3.0-r2
 libtls-standalone-2.9.1-r1
 libuv-1.38.1-r0
@@ -27,7 +27,7 @@ ncurses-terminfo-base-6.2_p20200523-r0
 nghttp2-libs-1.41.0-r0
 nodejs-12.18.4-r0
 npm-12.18.4-r0
-openssl-1.1.1g-r0
+openssl-1.1.1i-r0
 procps-3.3.16-r0
 readline-8.0.4-r0
 scanelf-1.2.6-r0
