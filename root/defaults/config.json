@@ -1,7 +1,7 @@
 {
   "port": 3000,
   "webAppDirectory": "webapp",
-  "writeLogs": false,
+  "writeLogs": true,
   "noUpload": true,
   "scanOptions": {
     "skipImg": false,
@@ -12,7 +12,8 @@
   },
   "storage": {
     "albumArtDirectory": "/config/album-art",
-    "dbDirectory": "/config/db"
+    "dbDirectory": "/config/db",
+    "logsDirectory": "/config/logs"
   },
   "folders": {
     "library": { "root": "/music" }
