@@ -7,6 +7,8 @@ ARG MSTREAM_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="chbmb"
 
+ENV HOME="/config"
+
 RUN \
  echo "**** install build packages ****" && \
  apk add --no-cache --virtual=build-dependencies \
@@ -34,6 +36,7 @@ RUN \
  npm install --only=production && \
  npm link && \
  echo "**** cleanup ****" && \
+ npm cache clean --force && \
  apk del --purge \
     build-dependencies && \
  rm -rf \

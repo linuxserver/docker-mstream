@@ -1,6 +1,6 @@
 {
   "port": 3000,
-  "webAppDirectory": "public",
+  "webAppDirectory": "webapp",
   "writeLogs": false,
   "noUpload": true,
   "scanOptions": {
@@ -16,13 +16,5 @@
   },
   "folders": {
     "library": { "root": "/music" }
-  },
-  "users": {
-    "admin": {
-      "password":"password",
-      "vpaths": ["library"],
-      "lastfm-user": "username",
-      "lastfm-password": "password"
-      }
   }
 }
