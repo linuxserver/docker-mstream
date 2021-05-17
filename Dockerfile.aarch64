@@ -10,36 +10,36 @@ LABEL maintainer="chbmb"
 ENV HOME="/config"
 
 RUN \
- echo "**** install build packages ****" && \
- apk add --no-cache --virtual=build-dependencies \
+  echo "**** install build packages ****" && \
+  apk add --no-cache --virtual=build-dependencies \
     curl \
     git && \
- echo "**** install runtime packages ****" && \
- apk add --no-cache --upgrade \
+  echo "**** install runtime packages ****" && \
+  apk add --no-cache --upgrade \
     nodejs \
     npm \
     openssl && \
- echo "**** install app ****" && \
- mkdir -p \
+  echo "**** install app ****" && \
+  mkdir -p \
     /opt/mstream && \
- if [ -z ${MSTREAM_RELEASE+x} ]; then \
-     MSTREAM_RELEASE=$(curl -sX GET "https://api.github.com/repos/IrosTheBeggar/mStream/releases/latest" \
-        | awk '/tag_name/{print $4;exit}' FS='[""]'); \
- fi && \
- curl -o \
- /tmp/mstream.tar.gz -L \
+  if [ -z ${MSTREAM_RELEASE+x} ]; then \
+    MSTREAM_RELEASE=$(curl -sX GET "https://api.github.com/repos/IrosTheBeggar/mStream/releases/latest" \
+      | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+  fi && \
+  curl -o \
+    /tmp/mstream.tar.gz -L \
     "https://github.com/IrosTheBeggar/mStream/archive/${MSTREAM_RELEASE}.tar.gz" && \
- tar xf \
+  tar xf \
     /tmp/mstream.tar.gz -C \
     /opt/mstream/ --strip-components=1 && \
- cd /opt/mstream && \
- npm install --only=production && \
- npm link && \
- echo "**** cleanup ****" && \
- npm cache clean --force && \
- apk del --purge \
+  cd /opt/mstream && \
+  npm install --only=production && \
+  npm link && \
+  echo "**** cleanup ****" && \
+  npm cache clean --force && \
+  apk del --purge \
     build-dependencies && \
- rm -rf \
+  rm -rf \
     /tmp/*
 
 # add local files
