@@ -15,24 +15,29 @@ available_architectures:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "<path to data>", desc: "mStream config" }
-  - { vol_path: "/music", vol_host_path: "<path to music>", desc: "Music location" }
+  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "mStream config" }
+  - { vol_path: "/music", vol_host_path: "/path/to/music", desc: "Music location" }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "3000", internal_port: "3000", port_desc: "The port for the mStream webinterface" }
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "USER", env_value: "admin", desc: "Set username to login" }
-  - { env_var: "PASSWORD", env_value: "password", desc: "Set password for user" }
-  - { env_var: "USE_JSON", env_value: "true/false", desc: "Run mStream using the config specified at `/config/config.json`, note this will mean user/password is defined in `config.json`" }
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use e.g. Europe/London" }
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
-  Access the webui at `http://<your-ip>:3000`, For most users specifying a `$USER` and `$PASSWORD` is sufficient, the `USE_JSON` option allows for more granular control of mStream, but with added complexity, requiring manual editing of `config.json` to configure your install, for more information check out [{{ project_name|capitalize }}](https://github.com/IrosTheBeggar/mStream/blob/master/docs/json_config.md#json-config).  Note using this option will make the default username:password `admin` and `password` respectively and any environmental variables will be ignored.
+  Access the webui at `http://<your-ip>:3000`
+  
+  Settings are adjusted through the web ui or via editing of `config.json`. For more information check out [{{ project_name|capitalize }}](https://github.com/IrosTheBeggar/mStream/blob/master/docs/json_config.md#json-config).
+
+  ## IMPORTANT NOTICE:
+  mStream v5 no longer accepts cli arguments for setting the user and password and requires the use of `config.json`. Therefore, the environment variables `USER`, `PASSWORD` and `USE_JSON` are deprecated.
+
+  v4's `config.json` is not compatible with v5. Existing `config.json` will be renamed to `config.json.v4-bak` for your reference and a new default `config.json` will be created upon upgrade from v4 to v5.
 
 # changelog
 changelogs:
+  - { date: "17.05.21:", desc: "Deprecating the env vars `USER`, `PASSWORD` and `USE_JSON` as mStream v5 requires the use of `config.json`." }
   - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
   - { date: "01.06.20:", desc: "Rebasing to alpine 3.12." }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }

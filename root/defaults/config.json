@@ -1,7 +1,7 @@
 {
   "port": 3000,
-  "webAppDirectory": "public",
-  "writeLogs": false,
+  "webAppDirectory": "webapp",
+  "writeLogs": true,
   "noUpload": true,
   "scanOptions": {
     "skipImg": false,
@@ -12,17 +12,10 @@
   },
   "storage": {
     "albumArtDirectory": "/config/album-art",
-    "dbDirectory": "/config/db"
+    "dbDirectory": "/config/db",
+    "logsDirectory": "/config/logs"
   },
   "folders": {
     "library": { "root": "/music" }
-  },
-  "users": {
-    "admin": {
-      "password":"password",
-      "vpaths": ["library"],
-      "lastfm-user": "username",
-      "lastfm-password": "password"
-      }
   }
 }

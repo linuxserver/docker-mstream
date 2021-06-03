@@ -2,11 +2,54 @@
 
 # make folders
 mkdir -p \
-    /config/{album-art,db}
+    /config/{album-art,db,logs}
 
 # copy config.json if doesn't exist
 [[ ! -e /config/config.json ]] && \
     cp /defaults/config.json /config/config.json
+
+# Backwards compatibility notice
+if [ -n "$USER" ] || [ -n "$PASSWORD" ] || [ -n "$USE_JSON" ]; then
+    echo '
+*************************************
+*************************************
+****                             ****
+****   $USER, $PASSWORD and      ****
+****                             ****
+****   $USE_JSON env vars are    ****
+****                             ****
+****   deprecated.               ****
+****                             ****
+****   Please edit config.json   ****
+****                             ****
+****   or use the web ui to      ****
+****                             ****
+****   modify the settings.      ****
+****                             ****
+*************************************
+*************************************'
+fi
+
+if grep -q '"webAppDirectory": "public"' /config/config.json; then
+    mv /config/config.json /config/config.json.v4-bak
+    echo '
+*************************************
+*************************************
+****                             ****
+****                             ****
+****   v4 config.json detected   ****
+****                             ****
+****   renaming to               ****
+****                             ****
+****   config.json.v4-bak        ****
+****                             ****
+****   due to incompatibility    ****
+****                             ****
+****   with v5                   ****
+****                             ****
+*************************************
+*************************************'
+fi
 
 # permissions
 chown abc:abc -R \
