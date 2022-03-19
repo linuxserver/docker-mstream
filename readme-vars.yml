@@ -37,6 +37,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "19.03.22:", desc: "Add config for ffmpeg path to prevent permission issue." }
   - { date: "17.05.21:", desc: "Deprecating the env vars `USER`, `PASSWORD` and `USE_JSON` as mStream v5 requires the use of `config.json`." }
   - { date: "23.01.21:", desc: "Rebasing to alpine 3.13." }
   - { date: "01.06.20:", desc: "Rebasing to alpine 3.12." }
