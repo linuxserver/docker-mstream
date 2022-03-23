@@ -17,5 +17,11 @@
   },
   "folders": {
     "library": { "root": "/music" }
+  },
+  "transcode": {
+    "enabled": "false",
+    "ffmpegDirectory": "/config/bin",
+    "defaultCodec": "opus",
+    "defaultBitrate": "128k"
   }
 }
