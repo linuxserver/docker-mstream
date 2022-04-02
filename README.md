@@ -231,6 +231,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **02.04.22:** - Rebase to alpine 3.15. Fix ffmpeg download.
 * **17.05.21:** - Deprecating the env vars `USER`, `PASSWORD` and `USE_JSON` as mStream v5 requires the use of `config.json`.
 * **23.01.21:** - Rebasing to alpine 3.13.
 * **01.06.20:** - Rebasing to alpine 3.12.
