@@ -53,5 +53,6 @@ fi
 
 # permissions
 chown abc:abc -R \
-    /config 
+    /config \
+    /opt/mstream/bin
     
