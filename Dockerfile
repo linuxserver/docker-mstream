@@ -37,6 +37,8 @@ RUN \
   npm link && \
   echo "**** cleanup ****" && \
   npm cache clean --force && \
+  rm -rf /opt/mstream/save/sync && \
+  ln -s /config/sync /opt/mstream/save/sync && \
   apk del --purge \
     build-dependencies && \
   rm -rf \
