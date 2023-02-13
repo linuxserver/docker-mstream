@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+PORT=$(grep '"port"' /config/config.json | awk -F ':' '{print $2}' | tr -d ',')
+
+exec \
+    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost ${PORT}" \
+        cd /opt/mstream s6-setuidgid abc mstream -j /config/config.json
