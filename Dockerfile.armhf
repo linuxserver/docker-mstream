@@ -36,7 +36,7 @@ RUN \
   echo "**** cleanup ****" && \
   npm cache clean --force && \
   rm -rf /opt/mstream/save/sync && \
-  rm -rf /config/.npm \
+  rm -rf /config/.npm && \
   ln -s /config/sync /opt/mstream/save/sync && \
   rm -rf \
     /tmp/*
