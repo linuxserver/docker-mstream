@@ -1,33 +1,20 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
-# make folders
 mkdir -p \
-    /config/{album-art,db,logs,sync}
+    /config/{album-art,db,keys,logs,sync} \
+    /music
+
+# create keys
+if [[ ! -e /config/keys/certificate.pem ]]; then
+    openssl req -x509 -nodes -days 3650 \
+    -newkey rsa:2048 -keyout /config/keys/private-key.pem  -out /config/keys/certificate.pem \
+    -subj "/CN=mstream"
+fi
 
 # copy config.json if doesn't exist
-[[ ! -e /config/config.json ]] && \
+if [[ ! -e /config/config.json ]]; then
     cp /defaults/config.json /config/config.json
-
-# Backwards compatibility notice
-if [ -n "$USER" ] || [ -n "$PASSWORD" ] || [ -n "$USE_JSON" ]; then
-    echo '
-*************************************
-*************************************
-****                             ****
-****   $USER, $PASSWORD and      ****
-****                             ****
-****   $USE_JSON env vars are    ****
-****                             ****
-****   deprecated.               ****
-****                             ****
-****   Please edit config.json   ****
-****                             ****
-****   or use the web ui to      ****
-****                             ****
-****   modify the settings.      ****
-****                             ****
-*************************************
-*************************************'
 fi
 
 if grep -q '"webAppDirectory": "public"' /config/config.json; then
@@ -52,7 +39,6 @@ if grep -q '"webAppDirectory": "public"' /config/config.json; then
 fi
 
 # permissions
-chown abc:abc -R \
+lsiown -R abc:abc \
     /config \
     /opt/mstream/bin
-    

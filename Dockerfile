@@ -1,4 +1,6 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.15
+# syntax=docker/dockerfile:1
+
+FROM ghcr.io/linuxserver/baseimage-alpine:3.17
 
 # set version label
 ARG BUILD_DATE
@@ -10,10 +12,6 @@ LABEL maintainer="chbmb"
 ENV HOME="/config"
 
 RUN \
-  echo "**** install build packages ****" && \
-  apk add --no-cache --virtual=build-dependencies \
-    curl \
-    git && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
     nodejs \
@@ -33,14 +31,13 @@ RUN \
     /tmp/mstream.tar.gz -C \
     /opt/mstream/ --strip-components=1 && \
   cd /opt/mstream && \
-  npm install --only=production && \
+  npm install --omit=dev && \
   npm link && \
   echo "**** cleanup ****" && \
   npm cache clean --force && \
   rm -rf /opt/mstream/save/sync && \
+  rm -rf /config/.npm && \
   ln -s /config/sync /opt/mstream/save/sync && \
-  apk del --purge \
-    build-dependencies && \
   rm -rf \
     /tmp/*
 
@@ -49,4 +46,4 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 3000
-VOLUME /config /music
+VOLUME /config
