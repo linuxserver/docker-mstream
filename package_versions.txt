@@ -523,7 +523,7 @@ read-package-json                          6.0.0                                
 read-package-json-fast                     3.0.1                                 npm        
 readable-stream                            2.3.8                                 npm        
 readable-stream                            3.6.0                                 npm        
-readable-stream                            3.6.1                                 npm        
+readable-stream                            3.6.2                                 npm        
 readable-stream                            4.2.0                                 npm        
 readable-web-to-node-stream                3.0.2                                 npm        
 readdir-glob                               1.1.2                                 npm        
@@ -619,7 +619,7 @@ winston-daily-rotate-file                  4.7.1                                
 winston-transport                          4.5.0                                 npm        
 wrappy                                     1.0.2                                 npm        
 write-file-atomic                          5.0.0                                 npm        
-ws                                         8.12.1                                npm        
+ws                                         8.13.0                                npm        
 xhr                                        2.6.0                                 npm        
 xml-parse-from-string                      1.0.1                                 npm        
 xml2js                                     0.4.23                                npm        
