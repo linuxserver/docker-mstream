@@ -202,7 +202,7 @@ fast-xml-parser                            3.21.1                               
 fastest-levenshtein                        1.0.16                                npm        
 fd-slicer                                  1.1.0                                 npm        
 fecha                                      4.2.3                                 npm        
-ffbinaries                                 1.1.4                                 npm        
+ffbinaries                                 1.1.5                                 npm        
 file-stream-rotator                        0.6.1                                 npm        
 file-type                                  16.5.4                                npm        
 finalhandler                               1.2.0                                 npm        
@@ -300,6 +300,7 @@ google.golang.org/protobuf                 v1.23.0                              
 gopkg.in/asn1-ber.v1                       v1.0.0-20181015200546-f715ec2f112d    go-module  
 gopkg.in/ldap.v2                           v2.5.1                                go-module  
 graceful-fs                                4.2.10                                npm        
+graceful-fs                                4.2.11                                npm        
 har-schema                                 2.0.0                                 npm        
 har-validator                              5.1.5                                 npm        
 has                                        1.0.3                                 npm        
@@ -343,7 +344,7 @@ isarray                                    1.0.0                                
 isexe                                      2.0.0                                 npm        
 isstream                                   0.1.2                                 npm        
 jimp                                       0.16.13                               npm        
-joi                                        17.8.3                                npm        
+joi                                        17.8.4                                npm        
 jpeg-js                                    0.4.4                                 npm        
 jq                                         1.6-r2                                apk        
 js-yaml                                    4.1.0                                 npm        
