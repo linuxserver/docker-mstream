@@ -73,7 +73,7 @@ ajv                                        6.12.6                               
 alpine-baselayout                          3.4.0-r0                              apk        
 alpine-baselayout-data                     3.4.0-r0                              apk        
 alpine-keys                                2.4-r1                                apk        
-alpine-release                             3.17.2-r0                             apk        
+alpine-release                             3.17.3-r0                             apk        
 ansi-regex                                 5.0.1                                 npm        
 ansi-styles                                4.3.0                                 npm        
 any-base                                   1.1.0                                 npm        
@@ -590,7 +590,7 @@ tunnel-agent                               0.6.0                                
 tweetnacl                                  0.14.5                                npm        
 type-is                                    1.6.18                                npm        
 typedarray                                 0.0.6                                 npm        
-tzdata                                     2023b-r1                              apk        
+tzdata                                     2023c-r0                              apk        
 unique-filename                            2.0.1                                 npm        
 unique-filename                            3.0.0                                 npm        
 unique-slug                                3.0.0                                 npm        
