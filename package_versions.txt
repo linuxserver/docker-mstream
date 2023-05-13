@@ -452,9 +452,9 @@ ncurses-terminfo-base                      6.3_p20221119-r0                     
 negotiator                                 0.6.3                                 npm        
 netcat-openbsd                             1.130-r4                              apk        
 nghttp2-libs                               1.51.0-r0                             apk        
-node                                       18.14.2                               binary     
+node                                       18.16.0                               binary     
 node-gyp                                   9.3.0                                 npm        
-nodejs                                     18.14.2-r0                            apk        
+nodejs                                     18.16.0-r0                            apk        
 nopt                                       6.0.0                                 npm        
 nopt                                       7.0.0                                 npm        
 normalize-package-data                     5.0.0                                 npm        
@@ -543,7 +543,7 @@ scanelf                                    1.3.5-r1                             
 semver                                     5.7.1                                 npm        
 semver                                     6.3.0                                 npm        
 semver                                     7.3.8                                 npm        
-semver                                     7.5.0                                 npm        
+semver                                     7.5.1                                 npm        
 send                                       0.18.0                                npm        
 serve-static                               1.15.0                                npm        
 set-blocking                               2.0.0                                 npm        
