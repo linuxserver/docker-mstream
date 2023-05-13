@@ -22,7 +22,7 @@ RUN \
     /opt/mstream && \
   if [ -z ${MSTREAM_RELEASE+x} ]; then \
     MSTREAM_RELEASE=$(curl -sX GET "https://api.github.com/repos/IrosTheBeggar/mStream/releases/latest" \
-      | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
   curl -o \
     /tmp/mstream.tar.gz -L \
@@ -31,15 +31,16 @@ RUN \
     /tmp/mstream.tar.gz -C \
     /opt/mstream/ --strip-components=1 && \
   cd /opt/mstream && \
-  npm install --omit=dev && \
+  chown -R abc:abc ./ && \
+  su -s /bin/sh abc -c 'HOME=/tmp npm install --omit=dev' && \
   npm link && \
   echo "**** cleanup ****" && \
-  npm cache clean --force && \
   rm -rf /opt/mstream/save/sync && \
-  rm -rf /config/.npm && \
   ln -s /config/sync /opt/mstream/save/sync && \
   rm -rf \
-    /tmp/*
+    $HOME/.cache \
+    /tmp/* \
+    /tmp/.npm
 
 # add local files
 COPY root/ /
