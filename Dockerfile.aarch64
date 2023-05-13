@@ -15,7 +15,8 @@ RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
     nodejs \
-    npm && \
+    npm \
+    openssl && \
   echo "**** install app ****" && \
   mkdir -p \
     /opt/mstream && \
@@ -32,6 +33,7 @@ RUN \
   cd /opt/mstream && \
   chown -R abc:abc ./ && \
   su -s /bin/sh abc -c 'HOME=/tmp npm install --omit=dev' && \
+  npm link && \
   echo "**** cleanup ****" && \
   rm -rf /opt/mstream/save/sync && \
   ln -s /config/sync /opt/mstream/save/sync && \
