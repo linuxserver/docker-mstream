@@ -221,7 +221,7 @@ fs.realpath                                1.0.0                                
 function-bind                              1.1.1                                 npm        
 gauge                                      4.0.4                                 npm        
 gauge                                      5.0.0                                 npm        
-get-intrinsic                              1.2.0                                 npm        
+get-intrinsic                              1.2.1                                 npm        
 getpass                                    0.1.7                                 npm        
 gifwrap                                    0.9.4                                 npm        
 github.com/AudriusButkevicius/go-nat-pmp   v0.0.0-20160522074932-452c97607362    go-module  
@@ -305,6 +305,7 @@ har-schema                                 2.0.0                                
 har-validator                              5.1.5                                 npm        
 has                                        1.0.3                                 npm        
 has-flag                                   4.0.0                                 npm        
+has-proto                                  1.0.1                                 npm        
 has-symbols                                1.0.3                                 npm        
 has-unicode                                2.0.1                                 npm        
 hosted-git-info                            6.1.1                                 npm        
