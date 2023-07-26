@@ -162,7 +162,7 @@ coreutils                                  9.1-r0                               
 crc-32                                     1.2.2                                 npm        
 crc32-stream                               4.0.2                                 npm        
 cssesc                                     3.0.0                                 npm        
-curl                                       8.1.2-r0                              apk        
+curl                                       8.2.0-r1                              apk        
 dashdash                                   1.14.1                                npm        
 debug                                      2.6.9                                 npm        
 debug                                      4.3.4                                 npm        
@@ -371,8 +371,8 @@ libacl                                     2.3.1-r1                             
 libattr                                    2.5.1-r2                              apk        
 libbsd                                     0.11.7-r0                             apk        
 libc-utils                                 0.7.2-r3                              apk        
-libcrypto3                                 3.0.9-r2                              apk        
-libcurl                                    8.1.2-r0                              apk        
+libcrypto3                                 3.0.9-r3                              apk        
+libcurl                                    8.2.0-r1                              apk        
 libgcc                                     12.2.1_git20220924-r4                 apk        
 libintl                                    0.21.1-r1                             apk        
 libmd                                      1.0.4-r0                              apk        
@@ -388,7 +388,7 @@ libnpmsearch                               6.0.0                                
 libnpmteam                                 5.0.0                                 npm        
 libnpmversion                              4.0.1                                 npm        
 libproc                                    3.3.17-r2                             apk        
-libssl3                                    3.0.9-r2                              apk        
+libssl3                                    3.0.9-r3                              apk        
 libstdc++                                  12.2.1_git20220924-r4                 apk        
 linux-pam                                  1.5.2-r1                              apk        
 load-bmfont                                1.4.1                                 npm        
@@ -452,10 +452,10 @@ ncurses-libs                               6.3_p20221119-r1                     
 ncurses-terminfo-base                      6.3_p20221119-r1                      apk        
 negotiator                                 0.6.3                                 npm        
 netcat-openbsd                             1.130-r4                              apk        
-nghttp2-libs                               1.51.0-r0                             apk        
-node                                       18.16.1                               binary     
+nghttp2-libs                               1.51.0-r1                             apk        
+node                                       18.17.0                               binary     
 node-gyp                                   9.3.0                                 npm        
-nodejs                                     18.16.1-r0                            apk        
+nodejs                                     18.17.0-r0                            apk        
 nopt                                       6.0.0                                 npm        
 nopt                                       7.0.0                                 npm        
 normalize-package-data                     5.0.0                                 npm        
@@ -483,7 +483,7 @@ on-finished                                2.4.1                                
 once                                       1.4.0                                 npm        
 one-time                                   1.0.0                                 npm        
 oniguruma                                  6.9.8-r0                              apk        
-openssl                                    3.0.9-r2                              apk        
+openssl                                    3.0.9-r3                              apk        
 p-map                                      4.0.0                                 npm        
 pacote                                     15.0.6                                npm        
 pako                                       1.0.11                                npm        
