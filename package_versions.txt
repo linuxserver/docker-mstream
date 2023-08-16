@@ -73,7 +73,7 @@ ajv                                        6.12.6                               
 alpine-baselayout                          3.4.0-r0                              apk        
 alpine-baselayout-data                     3.4.0-r0                              apk        
 alpine-keys                                2.4-r1                                apk        
-alpine-release                             3.17.4-r0                             apk        
+alpine-release                             3.17.5-r0                             apk        
 ansi-regex                                 5.0.1                                 npm        
 ansi-styles                                4.3.0                                 npm        
 any-base                                   1.1.0                                 npm        
@@ -114,7 +114,6 @@ buffer-from                                1.1.2                                
 builder-util-runtime                       8.9.2                                 npm        
 builtins                                   5.0.1                                 npm        
 busboy                                     1.6.0                                 npm        
-busybox                                    1.35.0                                binary     
 busybox                                    1.35.0-r29                            apk        
 busybox-binsh                              1.35.0-r29                            apk        
 bytes                                      3.1.2                                 npm        
