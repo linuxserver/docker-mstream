@@ -304,6 +304,7 @@ graceful-fs                                4.2.11                               
 har-schema                                 2.0.0                                 npm        
 har-validator                              5.1.5                                 npm        
 has                                        1.0.3                                 npm        
+has                                        1.0.4                                 npm        
 has-flag                                   4.0.0                                 npm        
 has-proto                                  1.0.1                                 npm        
 has-symbols                                1.0.3                                 npm        
