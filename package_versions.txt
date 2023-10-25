@@ -60,8 +60,8 @@ NAME                                       VERSION                              
 @tokenizer/token                           0.3.0                                 npm        
 @tootallnate/once                          2.0.0                                 npm        
 @types/node                                16.9.1                                npm        
-@types/semver                              7.5.3                                 npm        
-@types/triple-beam                         1.3.3                                 npm        
+@types/semver                              7.5.4                                 npm        
+@types/triple-beam                         1.3.4                                 npm        
 @videojs/vhs-utils                         3.0.5                                 npm        
 abbrev                                     1.1.1                                 npm        
 abbrev                                     2.0.0                                 npm        
@@ -124,7 +124,7 @@ ca-certificates                            20230506-r0                          
 ca-certificates-bundle                     20230506-r0                           apk        
 cacache                                    16.1.3                                npm        
 cacache                                    17.0.2                                npm        
-call-bind                                  1.0.2                                 npm        
+call-bind                                  1.0.5                                 npm        
 caseless                                   0.12.0                                npm        
 chalk                                      4.1.2                                 npm        
 chownr                                     2.0.0                                 npm        
@@ -168,6 +168,7 @@ dashdash                                   1.14.1                               
 debug                                      2.6.9                                 npm        
 debug                                      4.3.4                                 npm        
 defaults                                   1.0.3                                 npm        
+define-data-property                       1.1.1                                 npm        
 delayed-stream                             1.0.0                                 npm        
 delegates                                  1.0.0                                 npm        
 depd                                       1.1.2                                 npm        
@@ -223,7 +224,7 @@ function-bind                              1.1.1                                
 function-bind                              1.1.2                                 npm        
 gauge                                      4.0.4                                 npm        
 gauge                                      5.0.0                                 npm        
-get-intrinsic                              1.2.1                                 npm        
+get-intrinsic                              1.2.2                                 npm        
 getpass                                    0.1.7                                 npm        
 gifwrap                                    0.9.4                                 npm        
 github.com/AudriusButkevicius/go-nat-pmp   v0.0.0-20160522074932-452c97607362    go-module  
@@ -299,6 +300,7 @@ golang.org/x/text                          v0.3.4                               
 golang.org/x/time                          v0.0.0-20190308202827-9d24e82272b4    go-module  
 golang.org/x/time                          v0.0.0-20200630173020-3af7569d3a1e    go-module  
 google.golang.org/protobuf                 v1.23.0                               go-module  
+gopd                                       1.0.1                                 npm        
 gopkg.in/asn1-ber.v1                       v1.0.0-20181015200546-f715ec2f112d    go-module  
 gopkg.in/ldap.v2                           v2.5.1                                go-module  
 graceful-fs                                4.2.10                                npm        
@@ -306,11 +308,12 @@ graceful-fs                                4.2.11                               
 har-schema                                 2.0.0                                 npm        
 har-validator                              5.1.5                                 npm        
 has                                        1.0.3                                 npm        
-has                                        1.0.4                                 npm        
 has-flag                                   4.0.0                                 npm        
+has-property-descriptors                   1.0.1                                 npm        
 has-proto                                  1.0.1                                 npm        
 has-symbols                                1.0.3                                 npm        
 has-unicode                                2.0.1                                 npm        
+hasown                                     2.0.0                                 npm        
 hosted-git-info                            6.1.1                                 npm        
 http-cache-semantics                       4.1.0                                 npm        
 http-errors                                2.0.0                                 npm        
@@ -374,7 +377,7 @@ libacl                                     2.3.1-r1                             
 libattr                                    2.5.1-r2                              apk        
 libbsd                                     0.11.7-r0                             apk        
 libc-utils                                 0.7.2-r3                              apk        
-libcrypto3                                 3.0.11-r0                             apk        
+libcrypto3                                 3.0.12-r0                             apk        
 libcurl                                    8.4.0-r0                              apk        
 libgcc                                     12.2.1_git20220924-r4                 apk        
 libintl                                    0.21.1-r1                             apk        
@@ -391,7 +394,7 @@ libnpmsearch                               6.0.0                                
 libnpmteam                                 5.0.0                                 npm        
 libnpmversion                              4.0.1                                 npm        
 libproc                                    3.3.17-r2                             apk        
-libssl3                                    3.0.11-r0                             apk        
+libssl3                                    3.0.12-r0                             apk        
 libstdc++                                  12.2.1_git20220924-r4                 apk        
 linux-pam                                  1.5.2-r1                              apk        
 load-bmfont                                1.4.1                                 npm        
@@ -479,13 +482,13 @@ npmlog                                     6.0.2                                
 npmlog                                     7.0.1                                 npm        
 oauth-sign                                 0.9.0                                 npm        
 object-hash                                2.2.0                                 npm        
-object-inspect                             1.13.0                                npm        
+object-inspect                             1.13.1                                npm        
 omggif                                     1.0.10                                npm        
 on-finished                                2.4.1                                 npm        
 once                                       1.4.0                                 npm        
 one-time                                   1.0.0                                 npm        
 oniguruma                                  6.9.8-r0                              apk        
-openssl                                    3.0.11-r0                             apk        
+openssl                                    3.0.12-r0                             apk        
 p-map                                      4.0.0                                 npm        
 pacote                                     15.0.6                                npm        
 pako                                       1.0.11                                npm        
@@ -551,6 +554,7 @@ semver                                     7.5.4                                
 send                                       0.18.0                                npm        
 serve-static                               1.15.0                                npm        
 set-blocking                               2.0.0                                 npm        
+set-function-length                        1.1.1                                 npm        
 setprototypeof                             1.2.0                                 npm        
 shadow                                     4.13-r0                               apk        
 side-channel                               1.0.4                                 npm        
@@ -564,7 +568,7 @@ spdx-correct                               3.1.1                                
 spdx-exceptions                            2.3.0                                 npm        
 spdx-expression-parse                      3.0.1                                 npm        
 spdx-license-ids                           3.0.11                                npm        
-sshpk                                      1.17.0                                npm        
+sshpk                                      1.18.0                                npm        
 ssl_client                                 1.35.0-r29                            apk        
 ssri                                       10.0.0                                npm        
 ssri                                       9.0.1                                 npm        
