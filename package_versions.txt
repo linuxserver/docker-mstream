@@ -518,7 +518,7 @@ promise-retry                              2.0.1                                
 promzard                                   0.3.0                                 npm        
 proxy-addr                                 2.0.7                                 npm        
 psl                                        1.9.0                                 npm        
-punycode                                   2.3.0                                 npm        
+punycode                                   2.3.1                                 npm        
 qrcode-terminal                            0.12.0                                npm        
 qs                                         6.11.0                                npm        
 qs                                         6.5.3                                 npm        
