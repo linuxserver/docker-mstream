@@ -60,8 +60,8 @@ NAME                                       VERSION                              
 @tokenizer/token                           0.3.0                                 npm        
 @tootallnate/once                          2.0.0                                 npm        
 @types/node                                16.9.1                                npm        
-@types/semver                              7.5.4                                 npm        
-@types/triple-beam                         1.3.4                                 npm        
+@types/semver                              7.5.5                                 npm        
+@types/triple-beam                         1.3.5                                 npm        
 @videojs/vhs-utils                         3.0.5                                 npm        
 abbrev                                     1.1.1                                 npm        
 abbrev                                     2.0.0                                 npm        
@@ -90,7 +90,7 @@ argparse                                   2.0.1                                
 array-flatten                              1.1.1                                 npm        
 asn1                                       0.2.6                                 npm        
 assert-plus                                1.0.0                                 npm        
-async                                      3.2.4                                 npm        
+async                                      3.2.5                                 npm        
 asynckit                                   0.4.0                                 npm        
 aws-sign2                                  0.7.0                                 npm        
 aws4                                       1.12.0                                npm        
@@ -449,11 +449,11 @@ ms                                         2.1.2                                
 ms                                         2.1.3                                 npm        
 mstream                                    5.11.4                                npm        
 mstream-desktop-app                        5.9.4                                 npm        
-music-metadata                             7.13.4                                npm        
+music-metadata                             7.14.0                                npm        
 musl                                       1.2.3-r5                              apk        
 musl-utils                                 1.2.3-r5                              apk        
 mute-stream                                0.0.8                                 npm        
-nanoid                                     3.3.6                                 npm        
+nanoid                                     3.3.7                                 npm        
 ncurses-libs                               6.3_p20221119-r1                      apk        
 ncurses-terminfo-base                      6.3_p20221119-r1                      apk        
 negotiator                                 0.6.3                                 npm        
@@ -607,7 +607,7 @@ unique-filename                            3.0.0                                
 unique-slug                                3.0.0                                 npm        
 unique-slug                                4.0.0                                 npm        
 universalify                               0.1.2                                 npm        
-universalify                               2.0.0                                 npm        
+universalify                               2.0.1                                 npm        
 unpipe                                     1.0.0                                 npm        
 uri-js                                     4.4.1                                 npm        
 url-toolkit                                2.2.5                                 npm        
