@@ -393,7 +393,7 @@ libnpmpublish                              7.0.4                                
 libnpmsearch                               6.0.0                                 npm        
 libnpmteam                                 5.0.0                                 npm        
 libnpmversion                              4.0.1                                 npm        
-libproc                                    3.3.17-r2                             apk        
+libproc                                    3.3.17-r3                             apk        
 libssl3                                    3.0.12-r0                             apk        
 libstdc++                                  12.2.1_git20220924-r4                 apk        
 linux-pam                                  1.5.2-r1                              apk        
@@ -510,7 +510,7 @@ postcss-selector-parser                    6.0.10                               
 proc-log                                   3.0.0                                 npm        
 process                                    0.11.10                               npm        
 process-nextick-args                       2.0.1                                 npm        
-procps                                     3.3.17-r2                             apk        
+procps                                     3.3.17-r3                             apk        
 promise-all-reject-late                    1.0.1                                 npm        
 promise-call-limit                         1.0.1                                 npm        
 promise-inflight                           1.0.1                                 npm        
