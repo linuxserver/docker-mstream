@@ -41,4 +41,4 @@ fi
 # permissions
 lsiown -R abc:abc \
     /config \
-    /opt/mstream/bin
+    /app/mstream/bin
