@@ -1,5 +1,5 @@
 NAME                                       VERSION                               TYPE      
-@babel/runtime                             7.23.5                                npm        
+@babel/runtime                             7.23.6                                npm        
 @colors/colors                             1.5.0                                 npm        
 @colors/colors                             1.6.0                                 npm        
 @dabh/diagnostics                          2.0.3                                 npm        
@@ -163,7 +163,7 @@ coreutils                                  9.1-r0                               
 crc-32                                     1.2.2                                 npm        
 crc32-stream                               4.0.3                                 npm        
 cssesc                                     3.0.0                                 npm        
-curl                                       8.4.0-r0                              apk        
+curl                                       8.5.0-r0                              apk        
 dashdash                                   1.14.1                                npm        
 debug                                      2.6.9                                 npm        
 debug                                      4.3.4                                 npm        
@@ -378,7 +378,7 @@ libattr                                    2.5.1-r2                             
 libbsd                                     0.11.7-r0                             apk        
 libc-utils                                 0.7.2-r3                              apk        
 libcrypto3                                 3.0.12-r1                             apk        
-libcurl                                    8.4.0-r0                              apk        
+libcurl                                    8.5.0-r0                              apk        
 libgcc                                     12.2.1_git20220924-r4                 apk        
 libintl                                    0.21.1-r1                             apk        
 libmd                                      1.0.4-r0                              apk        
@@ -631,7 +631,7 @@ winston-daily-rotate-file                  4.7.1                                
 winston-transport                          4.6.0                                 npm        
 wrappy                                     1.0.2                                 npm        
 write-file-atomic                          5.0.0                                 npm        
-ws                                         8.14.2                                npm        
+ws                                         8.15.1                                npm        
 xhr                                        2.6.0                                 npm        
 xml-parse-from-string                      1.0.1                                 npm        
 xml2js                                     0.4.23                                npm        
