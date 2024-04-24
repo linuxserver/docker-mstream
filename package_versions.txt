@@ -51,7 +51,7 @@ alpine-baselayout-data                     3.4.3-r2                             
 alpine-keys                                2.4-r1                                apk                         
 alpine-release                             3.19.1-r0                             apk                         
 any-base                                   1.1.0                                 npm                         
-apk-tools                                  2.14.3-r1                             apk                         
+apk-tools                                  2.14.4-r0                             apk                         
 archiver                                   5.3.2                                 npm                         
 archiver-utils                             2.1.0                                 npm                         
 archiver-utils                             3.0.4                                 npm                         
@@ -150,6 +150,7 @@ ffbinaries                                 1.1.6                                
 file-stream-rotator                        0.6.1                                 npm                         
 file-type                                  16.5.4                                npm                         
 finalhandler                               1.2.0                                 npm                         
+findutils                                  4.9.0-r5                              apk                         
 fluent-ffmpeg                              2.1.2                                 npm                         
 fn.name                                    1.1.0                                 npm                         
 follow-redirects                           1.15.6                                npm                         
@@ -267,7 +268,7 @@ isarray                                    1.0.0                                
 isexe                                      2.0.0                                 npm                         
 isstream                                   0.1.2                                 npm                         
 jimp                                       0.16.13                               npm                         
-joi                                        17.12.3                               npm                         
+joi                                        17.13.0                               npm                         
 jpeg-js                                    0.4.4                                 npm                         
 jq                                         1.7.1-r0                              apk                         
 js-yaml                                    4.1.0                                 npm                         
