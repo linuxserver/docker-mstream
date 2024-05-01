@@ -1,5 +1,5 @@
 NAME                                       VERSION                               TYPE                       
-@babel/runtime                             7.24.4                                npm                         
+@babel/runtime                             7.24.5                                npm                         
 @colors/colors                             1.6.0                                 npm                         
 @dabh/diagnostics                          2.0.3                                 npm                         
 @hapi/hoek                                 9.3.0                                 npm                         
@@ -451,7 +451,7 @@ winston                                    3.13.0                               
 winston-daily-rotate-file                  4.7.1                                 npm                         
 winston-transport                          4.7.0                                 npm                         
 wrappy                                     1.0.2                                 npm                         
-ws                                         8.16.0                                npm                         
+ws                                         8.17.0                                npm                         
 xhr                                        2.6.0                                 npm                         
 xml-parse-from-string                      1.0.1                                 npm                         
 xml2js                                     0.5.0                                 npm                         
