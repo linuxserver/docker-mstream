@@ -351,7 +351,7 @@ moment                                     2.30.1                               
 ms                                         2.0.0                                 npm        (+4 duplicates)  
 ms                                         2.1.2                                 npm                         
 ms                                         2.1.3                                 npm                         
-mstream                                    5.12.1                                npm                         
+mstream                                    5.12.2                                npm                         
 mstream-desktop-app                        5.9.4                                 npm                         
 music-metadata                             7.14.0                                npm                         
 musl                                       1.2.4_git20230717-r4                  apk                         
