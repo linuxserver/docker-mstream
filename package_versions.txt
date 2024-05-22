@@ -64,11 +64,12 @@ argparse                                   2.0.1                                
 array-flatten                              1.1.1                                 npm                         
 asn1                                       0.2.6                                 npm                         
 assert-plus                                1.0.0                                 npm                         
+async                                      0.2.10                                npm                         
 async                                      3.2.5                                 npm                         
 asynckit                                   0.4.0                                 npm                         
 aws-sign2                                  0.7.0                                 npm                         
-aws4                                       1.12.0                                npm                         
-axios                                      1.6.8                                 npm                         
+aws4                                       1.13.0                                npm                         
+axios                                      1.7.2                                 npm                         
 b4a                                        1.6.6                                 npm                         
 balanced-match                             1.0.2                                 npm                         
 bare-events                                2.2.2                                 npm                         
@@ -157,7 +158,7 @@ extsprintf                                 1.3.0                                
 fast-deep-equal                            3.1.3                                 npm                         
 fast-fifo                                  1.3.2                                 npm                         
 fast-json-stable-stringify                 2.1.0                                 npm                         
-fast-xml-parser                            4.3.6                                 npm                         
+fast-xml-parser                            4.4.0                                 npm                         
 fd-slicer                                  1.1.0                                 npm                         
 fecha                                      4.2.3                                 npm                         
 ffbinaries                                 1.1.6                                 npm                         
@@ -165,7 +166,7 @@ file-stream-rotator                        0.6.1                                
 file-type                                  16.5.4                                npm                         
 finalhandler                               1.2.0                                 npm                         
 findutils                                  4.9.0-r5                              apk                         
-fluent-ffmpeg                              2.1.2                                 npm                         
+fluent-ffmpeg                              2.1.3                                 npm                         
 fn.name                                    1.1.0                                 npm                         
 follow-redirects                           1.15.6                                npm                         
 foreground-child                           3.1.1                                 npm                         
@@ -240,7 +241,7 @@ github.com/thejerf/suture                  v3.0.2+incompatible                  
 github.com/thejerf/suture/v4               v4.0.0                                go-module                   
 github.com/urfave/cli                      v1.22.4                               go-module                   
 github.com/vitrun/qart                     v0.0.0-20160531060029-bf64b92db6b0    go-module  (+3 duplicates)  
-glob                                       10.3.15                               npm                         
+glob                                       10.3.16                               npm                         
 global                                     4.4.0                                 npm                         
 golang.org/x/crypto                        v0.0.0-20190829043050-9756ffdc2472    go-module  (+2 duplicates)  
 golang.org/x/crypto                        v0.0.0-20201016220609-9e8e0b390897    go-module                   
@@ -282,7 +283,7 @@ isarray                                    1.0.0                                
 isexe                                      2.0.0                                 npm                         
 isomorphic-fetch                           3.0.0                                 npm                         
 isstream                                   0.1.2                                 npm                         
-jackspeak                                  2.3.6                                 npm                         
+jackspeak                                  3.1.2                                 npm                         
 jimp                                       0.22.12                               npm                         
 joi                                        17.13.1                               npm                         
 jpeg-js                                    0.4.4                                 npm                         
@@ -306,7 +307,7 @@ libattr                                    2.5.1-r5                             
 libbase64                                  0.5.0-r0                              apk                         
 libbsd                                     0.11.7-r3                             apk                         
 libc-utils                                 0.7.2-r5                              apk                         
-libcrypto3                                 3.1.4-r6                              apk                         
+libcrypto3                                 3.1.5-r0                              apk                         
 libcurl                                    8.5.0-r0                              apk                         
 libgcc                                     13.2.1_git20231014-r0                 apk                         
 libidn2                                    2.3.4-r4                              apk                         
@@ -314,7 +315,7 @@ libintl                                    0.22.3-r0                            
 libmd                                      1.1.0-r0                              apk                         
 libncursesw                                6.4_p20231125-r0                      apk                         
 libproc2                                   4.0.4-r0                              apk                         
-libssl3                                    3.1.4-r6                              apk                         
+libssl3                                    3.1.5-r0                              apk                         
 libstdc++                                  13.2.1_git20231014-r0                 apk                         
 libunistring                               1.1-r2                                apk                         
 linux-pam                                  1.5.3-r7                              apk                         
@@ -371,7 +372,7 @@ omggif                                     1.0.10                               
 on-finished                                2.4.1                                 npm                         
 one-time                                   1.0.0                                 npm                         
 oniguruma                                  6.9.9-r0                              apk                         
-openssl                                    3.1.4-r6                              apk                         
+openssl                                    3.1.5-r0                              apk                         
 pako                                       1.0.11                                npm                         
 parse-bmfont-ascii                         1.0.6                                 npm                         
 parse-bmfont-binary                        1.0.6                                 npm                         
