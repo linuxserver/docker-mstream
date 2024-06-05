@@ -72,7 +72,7 @@ aws4                                       1.13.0                               
 axios                                      1.7.2                                 npm                         
 b4a                                        1.6.6                                 npm                         
 balanced-match                             1.0.2                                 npm                         
-bare-events                                2.2.2                                 npm                         
+bare-events                                2.3.1                                 npm                         
 base64-js                                  1.5.1                                 npm                         
 bash                                       5.2.21-r0                             apk                         
 bcrypt-pbkdf                               1.0.2                                 npm                         
@@ -87,7 +87,7 @@ buffer-crc32                               1.0.0                                
 buffer-equal                               0.0.1                                 npm                         
 buffer-equal-constant-time                 1.0.1                                 npm                         
 buffer-from                                1.1.2                                 npm                         
-builder-util-runtime                       9.2.3                                 npm                         
+builder-util-runtime                       9.2.4                                 npm                         
 busboy                                     1.6.0                                 npm                         
 busybox                                    1.36.1-r18                            apk                         
 busybox-binsh                              1.36.1-r18                            apk                         
@@ -127,7 +127,7 @@ cross-spawn                                7.0.3                                
 curl                                       8.5.0-r0                              apk                         
 dashdash                                   1.14.1                                npm                         
 debug                                      2.6.9                                 npm        (+4 duplicates)  
-debug                                      4.3.4                                 npm                         
+debug                                      4.3.5                                 npm                         
 define-data-property                       1.1.4                                 npm                         
 delayed-stream                             1.0.0                                 npm                         
 depd                                       2.0.0                                 npm                         
@@ -137,7 +137,7 @@ eastasianwidth                             0.2.0                                
 ecc-jsbn                                   0.1.2                                 npm                         
 ecdsa-sig-formatter                        1.0.11                                npm                         
 ee-first                                   1.1.1                                 npm                         
-electron-updater                           6.1.8                                 npm                         
+electron-updater                           6.2.1                                 npm                         
 emoji-regex                                8.0.0                                 npm                         
 emoji-regex                                9.2.2                                 npm        (+1 duplicate)   
 enabled                                    2.0.0                                 npm                         
@@ -283,7 +283,7 @@ isarray                                    1.0.0                                
 isexe                                      2.0.0                                 npm                         
 isomorphic-fetch                           3.0.0                                 npm                         
 isstream                                   0.1.2                                 npm                         
-jackspeak                                  3.1.2                                 npm                         
+jackspeak                                  3.3.0                                 npm                         
 jimp                                       0.22.12                               npm                         
 joi                                        17.13.1                               npm                         
 jpeg-js                                    0.4.4                                 npm                         
@@ -437,7 +437,7 @@ statuses                                   2.0.1                                
 stdlib                                     go1.13.1                              go-module  (+2 duplicates)  
 stdlib                                     go1.16.3                              go-module                   
 streamsearch                               1.1.0                                 npm                         
-streamx                                    2.16.1                                npm                         
+streamx                                    2.18.0                                npm                         
 string-width                               4.2.3                                 npm        (+1 duplicate)   
 string-width                               5.1.2                                 npm        (+1 duplicate)   
 string_decoder                             1.1.1                                 npm        (+1 duplicate)   
@@ -447,6 +447,7 @@ strip-ansi                                 7.1.0                                
 strnum                                     1.0.5                                 npm                         
 strtok3                                    6.3.0                                 npm                         
 tar-stream                                 3.1.7                                 npm                         
+text-decoder                               1.1.0                                 npm                         
 text-hex                                   1.0.0                                 npm                         
 timm                                       1.7.1                                 npm                         
 tiny-typed-emitter                         2.1.0                                 npm                         
