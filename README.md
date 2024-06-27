@@ -85,7 +85,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/data:/config
+      - /path/to/mstream/data:/config
       - /path/to/music:/music
     ports:
       - 3000:3000
@@ -101,7 +101,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -p 3000:3000 \
-  -v /path/to/data:/config \
+  -v /path/to/mstream/data:/config \
   -v /path/to/music:/music \
   --restart unless-stopped \
   lscr.io/linuxserver/mstream:latest
@@ -113,7 +113,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 3000` | The port for the mStream webinterface |
+| `-p 3000` | The port for the mStream web interface |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
@@ -281,6 +281,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **27.06.24:** - Rebase to Alpine 3.20.
 * **12.12.23:** - Rebase to Alpine 3.19, move binaries to /app.
 * **05.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **13.02.23:** - Rebase to Alpine 3.17, migrate to s6v3.
