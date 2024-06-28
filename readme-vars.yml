@@ -12,11 +12,11 @@ available_architectures:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - {vol_path: "/config", vol_host_path: "/path/to/data", desc: "mStream config"}
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/data", desc: "mStream config"}
   - {vol_path: "/music", vol_host_path: "/path/to/music", desc: "Music location"}
 param_usage_include_ports: true
 param_ports:
-  - {external_port: "3000", internal_port: "3000", port_desc: "The port for the mStream webinterface"}
+  - {external_port: "3000", internal_port: "3000", port_desc: "The port for the mStream web interface"}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -30,6 +30,7 @@ app_setup_block: |
   v4's `config.json` is not compatible with v5. Existing `config.json` will be renamed to `config.json.v4-bak` for your reference and a new default `config.json` will be created upon upgrade from v4 to v5.
 # changelog
 changelogs:
+  - {date: "27.06.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "12.12.23:", desc: "Rebase to Alpine 3.19, move binaries to /app."}
   - {date: "05.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "13.02.23:", desc: "Rebase to Alpine 3.17, migrate to s6v3."}
