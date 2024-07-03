@@ -124,7 +124,7 @@ coreutils-sha512sum                        9.5-r1                               
 crc-32                                     1.2.2                                 npm                         
 crc32-stream                               6.0.0                                 npm                         
 cross-spawn                                7.0.3                                 npm                         
-curl                                       8.7.1-r0                              apk                         
+curl                                       8.8.0-r0                              apk                         
 dashdash                                   1.14.1                                npm                         
 debug                                      2.6.9                                 npm        (+4 duplicates)  
 debug                                      4.3.5                                 npm                         
@@ -306,8 +306,8 @@ libacl                                     2.3.2-r0                             
 libattr                                    2.5.2-r0                              apk                         
 libbase64                                  0.5.2-r0                              apk                         
 libbsd                                     0.12.2-r0                             apk                         
-libcrypto3                                 3.3.1-r0                              apk                         
-libcurl                                    8.7.1-r0                              apk                         
+libcrypto3                                 3.3.1-r1                              apk                         
+libcurl                                    8.8.0-r0                              apk                         
 libgcc                                     13.2.1_git20240309-r0                 apk                         
 libidn2                                    2.3.7-r0                              apk                         
 libintl                                    0.22.5-r0                             apk                         
@@ -315,7 +315,7 @@ libmd                                      1.1.0-r0                             
 libncursesw                                6.4_p20240420-r0                      apk                         
 libproc2                                   4.0.4-r0                              apk                         
 libpsl                                     0.21.5-r1                             apk                         
-libssl3                                    3.3.1-r0                              apk                         
+libssl3                                    3.3.1-r1                              apk                         
 libstdc++                                  13.2.1_git20240309-r0                 apk                         
 libunistring                               1.2-r0                                apk                         
 linux-pam                                  1.6.0-r0                              apk                         
@@ -372,7 +372,7 @@ omggif                                     1.0.10                               
 on-finished                                2.4.1                                 npm                         
 one-time                                   1.0.0                                 npm                         
 oniguruma                                  6.9.9-r0                              apk                         
-openssl                                    3.3.1-r0                              apk                         
+openssl                                    3.3.1-r1                              apk                         
 package-json-from-dist                     1.0.0                                 npm                         
 pako                                       1.0.11                                npm                         
 parse-bmfont-ascii                         1.0.6                                 npm                         
