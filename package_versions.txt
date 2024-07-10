@@ -93,11 +93,12 @@ busybox                                    1.36.1-r29                           
 busybox-binsh                              1.36.1-r29                            apk                         
 bytes                                      3.1.2                                 npm                         
 c-ares                                     1.28.1-r0                             apk                         
-ca-certificates                            20240226-r0                           apk                         
+ca-certificates                            20240705-r0                           apk                         
 ca-certificates-bundle                     20240226-r0                           apk                         
 call-bind                                  1.0.7                                 npm                         
 caseless                                   0.12.0                                npm                         
 catatonit                                  0.2.0-r0                              apk                         
+centra                                     2.7.0                                 npm                         
 clarg                                      0.0.4                                 npm                         
 color                                      3.2.1                                 npm                         
 color-convert                              1.9.3                                 npm                         
@@ -241,7 +242,7 @@ github.com/thejerf/suture                  v3.0.2+incompatible                  
 github.com/thejerf/suture/v4               v4.0.0                                go-module                   
 github.com/urfave/cli                      v1.22.4                               go-module                   
 github.com/vitrun/qart                     v0.0.0-20160531060029-bf64b92db6b0    go-module  (+3 duplicates)  
-glob                                       10.4.2                                npm                         
+glob                                       10.4.5                                npm                         
 global                                     4.4.0                                 npm                         
 golang.org/x/crypto                        v0.0.0-20190829043050-9756ffdc2472    go-module  (+2 duplicates)  
 golang.org/x/crypto                        v0.0.0-20201016220609-9e8e0b390897    go-module                   
@@ -283,7 +284,7 @@ isarray                                    1.0.0                                
 isexe                                      2.0.0                                 npm                         
 isomorphic-fetch                           3.0.0                                 npm                         
 isstream                                   0.1.2                                 npm                         
-jackspeak                                  3.4.0                                 npm                         
+jackspeak                                  3.4.2                                 npm                         
 jimp                                       0.22.12                               npm                         
 joi                                        17.13.3                               npm                         
 jpeg-js                                    0.4.4                                 npm                         
@@ -319,7 +320,7 @@ libssl3                                    3.3.1-r1                             
 libstdc++                                  13.2.1_git20240309-r0                 apk                         
 libunistring                               1.2-r0                                apk                         
 linux-pam                                  1.6.0-r0                              apk                         
-load-bmfont                                1.4.1                                 npm                         
+load-bmfont                                1.4.2                                 npm                         
 lodash                                     4.17.21                               npm                         
 lodash.escaperegexp                        4.1.2                                 npm                         
 lodash.includes                            4.3.0                                 npm                         
@@ -332,7 +333,7 @@ lodash.isstring                            4.0.1                                
 lodash.once                                4.1.1                                 npm                         
 logform                                    2.6.0                                 npm                         
 lokijs                                     1.5.12                                npm                         
-lru-cache                                  10.3.0                                npm                         
+lru-cache                                  10.4.3                                npm                         
 m3u8-parser                                7.1.0                                 npm                         
 make-dir                                   3.1.0                                 npm                         
 media-typer                                0.3.0                                 npm                         
@@ -386,7 +387,7 @@ path-to-regexp                             0.1.7                                
 peek-readable                              4.1.0                                 npm                         
 pend                                       1.2.0                                 npm                         
 performance-now                            2.1.0                                 npm                         
-phin                                       2.9.3                                 npm                         
+phin                                       3.7.1                                 npm                         
 pixelmatch                                 4.0.2                                 npm                         
 pngjs                                      3.4.0                                 npm                         
 pngjs                                      6.0.0                                 npm                         
@@ -448,7 +449,7 @@ strip-ansi                                 7.1.0                                
 strnum                                     1.0.5                                 npm                         
 strtok3                                    6.3.0                                 npm                         
 tar-stream                                 3.1.7                                 npm                         
-text-decoder                               1.1.0                                 npm                         
+text-decoder                               1.1.1                                 npm                         
 text-hex                                   1.0.0                                 npm                         
 timm                                       1.7.1                                 npm                         
 tiny-typed-emitter                         2.1.0                                 npm                         
@@ -486,7 +487,7 @@ winston-daily-rotate-file                  4.7.1                                
 winston-transport                          4.7.0                                 npm                         
 wrap-ansi                                  7.0.0                                 npm                         
 wrap-ansi                                  8.1.0                                 npm                         
-ws                                         8.17.1                                npm                         
+ws                                         8.18.0                                npm                         
 xhr                                        2.6.0                                 npm                         
 xml-parse-from-string                      1.0.1                                 npm                         
 xml2js                                     0.5.0                                 npm                         
