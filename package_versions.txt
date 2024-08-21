@@ -65,7 +65,7 @@ array-flatten                              1.1.1                                
 asn1                                       0.2.6                                 npm                         
 assert-plus                                1.0.0                                 npm                         
 async                                      0.2.10                                npm                         
-async                                      3.2.5                                 npm                         
+async                                      3.2.6                                 npm                         
 asynckit                                   0.4.0                                 npm                         
 aws-sign2                                  0.7.0                                 npm                         
 aws4                                       1.13.1                                npm                         
@@ -482,7 +482,7 @@ whatwg-fetch                               3.6.20                               
 whatwg-url                                 5.0.0                                 npm                         
 which                                      1.3.1                                 npm                         
 which                                      2.0.2                                 npm                         
-winston                                    3.14.1                                npm                         
+winston                                    3.14.2                                npm                         
 winston-daily-rotate-file                  4.7.1                                 npm                         
 winston-transport                          4.7.1                                 npm                         
 wrap-ansi                                  7.0.0                                 npm                         
