@@ -1,5 +1,5 @@
 NAME                                       VERSION                               TYPE                       
-@babel/runtime                             7.25.6                                npm                         
+@babel/runtime                             7.25.7                                npm                         
 @colors/colors                             1.6.0                                 npm                         
 @dabh/diagnostics                          2.0.3                                 npm                         
 @hapi/hoek                                 9.3.0                                 npm                         
@@ -87,7 +87,7 @@ buffer-crc32                               1.0.0                                
 buffer-equal                               0.0.1                                 npm                         
 buffer-equal-constant-time                 1.0.1                                 npm                         
 buffer-from                                1.1.2                                 npm                         
-builder-util-runtime                       9.2.5                                 npm                         
+builder-util-runtime                       9.2.10                                npm                         
 busboy                                     1.6.0                                 npm                         
 busybox                                    1.36.1-r29                            apk                         
 busybox-binsh                              1.36.1-r29                            apk                         
@@ -113,9 +113,9 @@ compress-commons                           6.0.2                                
 concat-stream                              1.6.2                                 npm                         
 content-disposition                        0.5.4                                 npm                         
 content-type                               1.0.5                                 npm                         
-cookie                                     0.4.1                                 npm                         
-cookie                                     0.6.0                                 npm                         
-cookie-parser                              1.4.6                                 npm                         
+cookie                                     0.7.1                                 npm                         
+cookie                                     0.7.2                                 npm                         
+cookie-parser                              1.4.7                                 npm                         
 cookie-signature                           1.0.6                                 npm                         
 core-util-is                               1.0.2                                 npm                         
 coreutils                                  9.5-r1                                apk                         
@@ -138,7 +138,7 @@ eastasianwidth                             0.2.0                                
 ecc-jsbn                                   0.1.2                                 npm                         
 ecdsa-sig-formatter                        1.0.11                                npm                         
 ee-first                                   1.1.1                                 npm                         
-electron-updater                           6.3.4                                 npm                         
+electron-updater                           6.3.9                                 npm                         
 emoji-regex                                8.0.0                                 npm                         
 emoji-regex                                9.2.2                                 npm        (+1 duplicate)   
 enabled                                    2.0.0                                 npm                         
@@ -153,7 +153,7 @@ event-target-shim                          5.0.1                                
 eventemitter3                              4.0.7                                 npm                         
 events                                     3.3.0                                 npm                         
 exif-parser                                0.1.12                                npm                         
-express                                    4.21.0                                npm                         
+express                                    4.21.1                                npm                         
 extend                                     3.0.2                                 npm                         
 extract-zip                                1.7.0                                 npm                         
 extsprintf                                 1.3.0                                 npm                         
@@ -481,7 +481,7 @@ whatwg-fetch                               3.6.20                               
 whatwg-url                                 5.0.0                                 npm                         
 which                                      1.3.1                                 npm                         
 which                                      2.0.2                                 npm                         
-winston                                    3.14.2                                npm                         
+winston                                    3.15.0                                npm                         
 winston-daily-rotate-file                  4.7.1                                 npm                         
 winston-transport                          4.8.0                                 npm                         
 wrap-ansi                                  7.0.0                                 npm                         
