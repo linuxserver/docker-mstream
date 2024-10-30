@@ -1,5 +1,5 @@
 NAME                                       VERSION                               TYPE                       
-@babel/runtime                             7.25.9                                npm                         
+@babel/runtime                             7.26.0                                npm                         
 @colors/colors                             1.6.0                                 npm                         
 @dabh/diagnostics                          2.0.3                                 npm                         
 @hapi/hoek                                 9.3.0                                 npm                         
