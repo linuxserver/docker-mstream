@@ -124,7 +124,7 @@ coreutils-fmt                              9.5-r1                               
 coreutils-sha512sum                        9.5-r1                                apk                         
 crc-32                                     1.2.2                                 npm                         
 crc32-stream                               6.0.0                                 npm                         
-cross-spawn                                7.0.5                                 npm                         
+cross-spawn                                7.0.6                                 npm                         
 curl                                       8.9.1-r2                              apk                         
 dashdash                                   1.14.1                                npm                         
 debug                                      2.6.9                                 npm        (+4 duplicates)  
@@ -439,7 +439,7 @@ statuses                                   2.0.1                                
 stdlib                                     go1.13.1                              go-module  (+2 duplicates)  
 stdlib                                     go1.16.3                              go-module                   
 streamsearch                               1.1.0                                 npm                         
-streamx                                    2.20.1                                npm                         
+streamx                                    2.20.2                                npm                         
 string-width                               4.2.3                                 npm        (+1 duplicate)   
 string-width                               5.1.2                                 npm        (+1 duplicate)   
 string_decoder                             1.1.1                                 npm        (+1 duplicate)   
