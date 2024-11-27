@@ -69,7 +69,7 @@ async                                      3.2.6                                
 asynckit                                   0.4.0                                 npm                         
 aws-sign2                                  0.7.0                                 npm                         
 aws4                                       1.13.2                                npm                         
-axios                                      1.7.7                                 npm                         
+axios                                      1.7.8                                 npm                         
 b4a                                        1.6.7                                 npm                         
 balanced-match                             1.0.2                                 npm                         
 bare-events                                2.5.0                                 npm                         
@@ -358,7 +358,7 @@ mstream-desktop-app                        5.9.4                                
 music-metadata                             7.14.0                                npm                         
 musl                                       1.2.5-r0                              apk                         
 musl-utils                                 1.2.5-r0                              apk                         
-nanoid                                     3.3.7                                 npm                         
+nanoid                                     3.3.8                                 npm                         
 ncurses-terminfo-base                      6.4_p20240420-r1                      apk                         
 negotiator                                 0.6.3                                 npm                         
 netcat-openbsd                             1.226-r0                              apk                         
@@ -396,7 +396,7 @@ process-nextick-args                       2.0.1                                
 procps-ng                                  4.0.4-r0                              apk                         
 proxy-addr                                 2.0.7                                 npm                         
 proxy-from-env                             1.1.0                                 npm                         
-psl                                        1.10.0                                npm                         
+psl                                        1.13.0                                npm                         
 punycode                                   2.3.1                                 npm                         
 qs                                         6.13.0                                npm                         
 qs                                         6.5.3                                 npm                         
