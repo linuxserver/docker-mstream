@@ -515,7 +515,7 @@ tunnel-agent                               0.6.0                                
 tweetnacl                                  0.14.5                                npm                         
 type-is                                    1.6.18                                npm                         
 typedarray                                 0.0.6                                 npm                         
-tzdata                                     2025a-r0                              apk                         
+tzdata                                     2025b-r0                              apk                         
 uint8array-extras                          1.4.0                                 npm                         
 universalify                               0.1.2                                 npm                         
 universalify                               2.0.1                                 npm                         
