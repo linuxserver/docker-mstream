@@ -81,7 +81,7 @@ ajv                                        6.12.6                               
 alpine-baselayout                          3.6.5-r0                              apk                         
 alpine-baselayout-data                     3.6.5-r0                              apk                         
 alpine-keys                                2.4-r1                                apk                         
-alpine-release                             3.20.6-r0                             apk                         
+alpine-release                             3.20.7-r0                             apk                         
 ansi-regex                                 5.0.1                                 npm        (+3 duplicates)  
 ansi-regex                                 6.1.0                                 npm                         
 ansi-styles                                4.3.0                                 npm                         
@@ -126,7 +126,7 @@ busybox-binsh                              1.36.1-r29                           
 bytes                                      3.1.2                                 npm                         
 c-ares                                     1.33.1-r0                             apk                         
 ca-certificates                            20250619-r0                           apk                         
-ca-certificates-bundle                     20241121-r1                           apk                         
+ca-certificates-bundle                     20250619-r0                           apk                         
 call-bind-apply-helpers                    1.0.1                                 npm                         
 call-bound                                 1.0.3                                 npm                         
 caseless                                   0.12.0                                npm                         
