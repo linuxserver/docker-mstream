@@ -121,8 +121,8 @@ buffer-equal-constant-time                 1.0.1                                
 buffer-from                                1.1.2                                 npm                         
 builder-util-runtime                       9.2.10                                npm                         
 busboy                                     1.6.0                                 npm                         
-busybox                                    1.36.1-r30                            apk                         
-busybox-binsh                              1.36.1-r30                            apk                         
+busybox                                    1.36.1-r31                            apk                         
+busybox-binsh                              1.36.1-r31                            apk                         
 bytes                                      3.1.2                                 npm                         
 c-ares                                     1.33.1-r0                             apk                         
 ca-certificates                            20250911-r0                           apk                         
@@ -481,7 +481,7 @@ simple-swizzle                             0.2.2                                
 simple-xml-to-json                         1.2.3                                 npm                         
 skalibs                                    2.14.1.1-r0                           apk                         
 sshpk                                      1.18.0                                npm                         
-ssl_client                                 1.36.1-r30                            apk                         
+ssl_client                                 1.36.1-r31                            apk                         
 stack-trace                                0.0.10                                npm                         
 statuses                                   2.0.1                                 npm                         
 stdlib                                     go1.13.1                              go-module  (+2 duplicates)  
