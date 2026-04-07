@@ -72,6 +72,7 @@ init_diagram: |
   "mstream:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "07.04.26:", desc: "Add ffmpeg and yt-dlp."}
   - {date: "06.04.26:", desc: "Rebase to Alpine 3.23."}
   - {date: "27.06.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "12.12.23:", desc: "Rebase to Alpine 3.19, move binaries to /app."}
