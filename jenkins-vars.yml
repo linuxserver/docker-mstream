@@ -1,14 +1,12 @@
 ---
 # jenkins variables
 project_name: docker-mstream
-external_type: github_stable
+external_type: na
+custom_version_command: "curl -sX GET https://api.github.com/repos/IrosTheBeggar/mStream/releases | jq -r '.[] | select(.prerelease != true) | select(.tag_name | contains(\"DESKTOP\") | not) .tag_name' | head -1"
 release_type: stable
 release_tag: latest
 ls_branch: master
 repo_vars:
-  - EXT_GIT_BRANCH = 'master'
-  - EXT_USER = 'IrosTheBeggar'
-  - EXT_REPO = 'mStream'
   - BUILD_VERSION_ARG = 'MSTREAM_RELEASE'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-mstream'

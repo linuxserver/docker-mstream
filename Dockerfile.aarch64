@@ -14,16 +14,18 @@ ENV HOME="/config"
 RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
+    ffmpeg \
     nodejs \
-    openssl && \
+    openssl \
+    yt-dlp && \
   apk add --no-cache --upgrade --virtual=build-dependencies \
     npm && \
   echo "**** install app ****" && \
   mkdir -p \
     /app/mstream && \
   if [ -z ${MSTREAM_RELEASE+x} ]; then \
-    MSTREAM_RELEASE=$(curl -sX GET "https://api.github.com/repos/IrosTheBeggar/mStream/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    MSTREAM_RELEASE=$(curl -sX GET https://api.github.com/repos/IrosTheBeggar/mStream/releases \
+      | jq -r '.[] | select(.prerelease != true) | select(.tag_name | contains("DESKTOP") | not) .tag_name' | head -1); \
   fi && \
   curl -o \
     /tmp/mstream.tar.gz -L \
