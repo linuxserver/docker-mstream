@@ -37,6 +37,7 @@ RUN \
   chown -R abc:abc ./ && \
   su -s /bin/sh abc -c 'HOME=/tmp npm install --omit=dev' && \
   npm link && \
+  chmod +x /app/mstream/bin/rust-parser/* && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   rm -rf /app/mstream/save/sync && \
