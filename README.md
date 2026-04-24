@@ -282,6 +282,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **24.04.26:** - Make waveform data persistent.
 * **20.04.26:** - Fix perms on rust binaries.
 * **07.04.26:** - Add ffmpeg and yt-dlp.
 * **06.04.26:** - Rebase to Alpine 3.23.

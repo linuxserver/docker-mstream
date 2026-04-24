@@ -13,7 +13,8 @@
   "storage": {
     "albumArtDirectory": "/config/album-art",
     "dbDirectory": "/config/db",
-    "logsDirectory": "/config/logs"
+    "logsDirectory": "/config/logs",
+    "waveformCacheDirectory": "/config/waveform-cache"
   },
   "folders": {
     "library": { "root": "/music" }
