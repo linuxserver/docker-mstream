@@ -2,7 +2,7 @@
 # shellcheck shell=bash
 
 mkdir -p \
-    /config/{album-art,db,keys,logs,sync} \
+    /config/{album-art,db,keys,logs,sync,waveform-cache} \
     /music
 
 # create keys

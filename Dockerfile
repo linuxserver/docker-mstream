@@ -40,8 +40,11 @@ RUN \
   chmod +x /app/mstream/bin/rust-parser/* && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
-  rm -rf /app/mstream/save/sync && \
+  rm -rf \
+    /app/mstream/save/sync \
+    /app/mstream/waveform-cache && \
   ln -s /config/sync /app/mstream/save/sync && \
+  ln -s /config/waveform-cache /app/mstream/waveform-cache && \
   apk del --purge \
     build-dependencies && \
   rm -rf \
