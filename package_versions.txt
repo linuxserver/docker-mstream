@@ -107,7 +107,6 @@ async-recursion                            1.1.1                                
 async-stream                               0.3.5                                 rust-crate                   
 async-trait                                0.1.88                                rust-crate                   
 asynchronous-codec                         0.7.0                                 rust-crate                   
-asynckit                                   0.4.0                                 npm                          
 atomic-waker                               1.1.2                                 rust-crate                   
 attr                                       2.5.2-r2                              apk                          
 auto_impl                                  1.2.0                                 rust-crate                   
@@ -115,7 +114,6 @@ av-metrics                                 0.9.1                                
 av-scenechange                             0.14.1                                rust-crate                   
 av1-grain                                  0.2.4                                 rust-crate                   
 await-to-js                                3.0.0                                 npm                          
-axios                                      1.14.0                                npm                          
 axum                                       0.7.5                                 rust-crate                   
 axum-core                                  0.4.5                                 rust-crate                   
 az                                         1.2.1                                 rust-crate                   
@@ -204,9 +202,7 @@ color-print                                0.3.5                                
 color-string                               2.1.4                                 npm                          
 colorchoice                                1.0.0                                 rust-crate                   
 colorchoice                                1.0.4                                 rust-crate                   
-combined-stream                            1.0.8                                 npm                          
 command-exists                             1.2.9                                 npm                          
-commander                                  14.0.3                                npm                          
 compact_str                                0.7.1                                 rust-crate                   
 compress-commons                           6.0.2                                 npm                          
 comrak                                     0.29.0                                rust-crate                   
@@ -272,7 +268,6 @@ dbus-libs                                  1.16.2-r1                            
 debug                                      4.4.3                                 npm                          
 debug-ignore                               1.0.5                                 rust-crate                   
 debugid                                    0.8.0                                 rust-crate                   
-delayed-stream                             1.0.0                                 npm                          
 deno                                       2.3.1                                 rust-crate                   
 deno                                       2.3.1-r5                              apk                          
 deno_ast                                   0.46.6                                rust-crate                   
@@ -389,7 +384,6 @@ error_reporter                             1.0.0                                
 es-define-property                         1.0.1                                 npm                          
 es-errors                                  1.3.0                                 npm                          
 es-object-atoms                            1.1.1                                 npm                          
-es-set-tostringtag                         2.1.0                                 npm                          
 escape-html                                1.0.3                                 npm                          
 eszip                                      0.87.0                                rust-crate                   
 etag                                       1.8.1                                 npm                          
@@ -422,7 +416,6 @@ ffmpeg-libavutil                           8.0.1-r1                             
 ffmpeg-libswresample                       8.0.1-r1                              apk                          
 ffmpeg-libswscale                          8.0.1-r1                              apk                          
 fiat-crypto                                0.1.20                                rust-crate                   
-file-stream-rotator                        0.6.1                                 npm                          
 file-type                                  16.5.4                                npm                          
 file-type                                  21.3.4                                npm                          
 filetime                                   0.2.23                                rust-crate                   
@@ -440,7 +433,6 @@ fontconfig                                 2.17.1-r0                            
 foreground-child                           3.3.1                                 npm                          
 foreign-types                              0.5.0                                 rust-crate                   
 foreign-types-shared                       0.3.1                                 rust-crate                   
-form-data                                  4.0.5                                 npm                          
 form_urlencoded                            1.2.1                                 rust-crate                   
 forwarded                                  0.2.0                                 npm                          
 fqdn                                       0.3.4                                 rust-crate                   
@@ -562,7 +554,6 @@ halfbrown                                  0.2.5                                
 handlebars                                 6.1.0                                 rust-crate                   
 harfbuzz                                   12.2.0-r0                             apk                          
 has-symbols                                1.1.0                                 npm                          
-has-tostringtag                            1.0.2                                 npm                          
 hash32                                     0.3.1                                 rust-crate                   
 hashbrown                                  0.12.3                                rust-crate                   
 hashbrown                                  0.14.5                                rust-crate                   
@@ -770,7 +761,6 @@ logform                                    2.7.0                                
 lru-cache                                  10.4.3                                npm                          
 lsp-types                                  0.97.0                                rust-crate                   
 m3u8-parser                                7.2.0                                 npm                          
-make-dir                                   5.1.0                                 npm                          
 malva                                      0.11.2                                rust-crate                   
 markup_fmt                                 0.19.1                                rust-crate                   
 match_cfg                                  0.1.0                                 rust-crate                   
@@ -788,9 +778,7 @@ memoffset                                  0.9.1                                
 merge-descriptors                          2.0.0                                 npm                          
 mime                                       0.3.17                                rust-crate                   
 mime                                       3.0.0                                 npm                          
-mime-db                                    1.52.0                                npm                          
 mime-db                                    1.54.0                                npm                          
-mime-types                                 2.1.35                                npm                          
 mime-types                                 3.0.2                                 npm                          
 min-document                               2.19.2                                npm                          
 minimal-lexical                            0.2.1                                 rust-crate  (+1 duplicate)   
@@ -802,12 +790,11 @@ miniz_oxide                                0.8.4                                
 mio                                        0.8.11                                rust-crate                   
 mio                                        1.0.3                                 rust-crate                   
 moka                                       0.12.10                               rust-crate                   
-moment                                     2.30.1                                npm                          
 monch                                      0.5.0                                 rust-crate                   
 mpdecimal                                  4.0.1-r0                              apk                          
 mpg123-libs                                1.33.3-r0                             apk                          
 ms                                         2.1.3                                 npm                          
-mstream                                    6.5.4                                 npm                          
+mstream                                    6.5.6                                 npm                          
 mstream-desktop-app                        5.9.4                                 npm                          
 mstream-desktop-app                        6.0.0                                 npm                          
 music-metadata                             11.12.3                               npm                          
@@ -845,7 +832,6 @@ num-rational                               0.4.2                                
 num-traits                                 0.2.19                                rust-crate  (+1 duplicate)   
 num_cpus                                   1.16.0                                rust-crate                   
 numactl                                    2.0.18-r0                             apk                          
-object-hash                                3.0.0                                 npm                          
 object-inspect                             1.13.4                                npm                          
 oid-registry                               0.6.1                                 rust-crate                   
 omggif                                     1.0.10                                npm                          
@@ -935,7 +921,6 @@ profiling                                  1.0.15                               
 profiling                                  1.0.16                                rust-crate                   
 prost                                      0.13.3                                rust-crate                   
 proxy-addr                                 2.0.7                                 npm                          
-proxy-from-env                             2.1.0                                 npm                          
 psm                                        0.1.20                                rust-crate                   
 ptr_meta                                   0.3.0                                 rust-crate                   
 pulldown-cmark                             0.11.2                                rust-crate                   
@@ -1276,7 +1261,6 @@ win-guid                                   0.2.1                                
 winapi                                     0.3.9                                 rust-crate                   
 winnow                                     0.6.26                                rust-crate                   
 winston                                    3.19.0                                npm                          
-winston-daily-rotate-file                  5.0.0                                 npm                          
 winston-transport                          4.9.0                                 npm                          
 wrap-ansi                                  7.0.0                                 npm                          
 wrap-ansi                                  8.1.0                                 npm                          
