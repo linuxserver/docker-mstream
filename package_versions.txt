@@ -680,7 +680,7 @@ libbsd                                     0.12.2-r0                            
 libbz2                                     1.0.8-r6                              apk                          
 libc                                       0.2.171                               rust-crate                   
 libc                                       0.2.172                               rust-crate  (+1 duplicate)   
-libcrypto3                                 3.5.6-r0                              apk                          
+libcrypto3                                 3.5.7-r0                              apk                          
 libcurl                                    8.19.0-r0                             apk                          
 libdav1d                                   1.5.2-r0                              apk                          
 libdovi                                    3.3.2-r0                              apk                          
@@ -721,7 +721,7 @@ libsodium                                  1.0.20-r1                            
 libsqlite3-sys                             0.32.0                                rust-crate                   
 libsrt                                     1.5.3-r1                              apk                          
 libssh                                     0.11.4-r0                             apk                          
-libssl3                                    3.5.6-r0                              apk                          
+libssl3                                    3.5.7-r0                              apk                          
 libstdc++                                  15.2.0-r2                             apk                          
 libsui                                     0.10.0                                rust-crate                   
 libtheora                                  1.2.0-r0                              apk                          
@@ -846,7 +846,7 @@ one-time                                   1.0.0                                
 oniguruma                                  6.9.10-r0                             apk                          
 opaque-debug                               0.3.1                                 rust-crate                   
 open                                       5.1.2                                 rust-crate                   
-openssl                                    3.5.6-r0                              apk                          
+openssl                                    3.5.7-r0                              apk                          
 openssl-probe                              0.1.5                                 rust-crate                   
 opentelemetry                              0.27.0                                rust-crate                   
 opentelemetry-http                         0.27.0                                rust-crate                   
