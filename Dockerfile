@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.23
+FROM ghcr.io/linuxserver/baseimage-alpine:3.24
 
 # set version label
 ARG BUILD_DATE
@@ -15,7 +15,9 @@ RUN \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
     ffmpeg \
+    gcompat \
     nodejs \
+    onnxruntime \
     openssl \
     yt-dlp && \
   apk add --no-cache --upgrade --virtual=build-dependencies \
@@ -36,6 +38,16 @@ RUN \
   cd /app/mstream && \
   chown -R abc:abc ./ && \
   su -s /bin/sh abc -c 'HOME=/tmp npm install --omit=dev' && \
+  echo "**** use distro onnxruntime for the discovery embedding runtime ****" && \
+  if [ -d /app/mstream/node_modules/onnxruntime-node/bin/napi-v6/linux/x64 ]; then \
+    rm -f \
+      /app/mstream/node_modules/onnxruntime-node/bin/napi-v6/linux/x64/libonnxruntime.so.1 \
+      /app/mstream/node_modules/onnxruntime-node/bin/napi-v6/linux/x64/libonnxruntime_providers_cuda.so \
+      /app/mstream/node_modules/onnxruntime-node/bin/napi-v6/linux/x64/libonnxruntime_providers_tensorrt.so && \
+    ln -s \
+      /usr/lib/libonnxruntime.so.1 \
+      /app/mstream/node_modules/onnxruntime-node/bin/napi-v6/linux/x64/libonnxruntime.so.1; \
+  fi && \
   npm link && \
   chmod +x /app/mstream/bin/rust-parser/* && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \

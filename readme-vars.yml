@@ -72,6 +72,7 @@ init_diagram: |
   "mstream:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "08.07.26:", desc: "Rebase to Alpine 3.24. Use the distro onnxruntime so the discovery/recommendation features work on musl."}
   - {date: "24.04.26:", desc: "Make waveform data persistent."}
   - {date: "20.04.26:", desc: "Fix perms on rust binaries."}
   - {date: "07.04.26:", desc: "Add ffmpeg and yt-dlp."}
