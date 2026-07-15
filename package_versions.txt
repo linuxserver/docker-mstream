@@ -1283,7 +1283,7 @@ type-is                                   2.0.1                                 
 typed-arena                               2.0.2                                  rust-crate                   
 typeid                                    1.0.3                                  rust-crate                   
 typenum                                   1.17.0                                 rust-crate                   
-tzdata                                    2026b-r0                               apk                          
+tzdata                                    2026c-r0                               apk                          
 ucd-trie                                  0.1.6                                  rust-crate                   
 uint8array-extras                         1.5.0                                  npm                          
 undici-types                              8.3.0                                  npm                          
