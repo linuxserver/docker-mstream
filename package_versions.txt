@@ -820,7 +820,7 @@ matcher                                   3.0.0                                 
 matchit                                   0.7.3                                  rust-crate                   
 math-intrinsics                           1.1.0                                  npm                          
 maybe-rayon                               0.1.1                                  rust-crate                   
-mbedtls3                                  3.6.6-r0                               apk                          
+mbedtls3                                  3.6.7-r0                               apk                          
 md-5                                      0.10.6                                 rust-crate                   
 md4                                       0.10.2                                 rust-crate                   
 media-typer                               1.1.0                                  npm                          
