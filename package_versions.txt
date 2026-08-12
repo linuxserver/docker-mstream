@@ -763,7 +763,7 @@ libsndfile                                1.2.2-r2                              
 libsodium                                 1.0.22-r0                              apk                          
 libsqlite3-sys                            0.35.0                                 rust-crate                   
 libsrt                                    1.5.3-r1                               apk                          
-libssh                                    0.12.1-r0                              apk                          
+libssh                                    0.12.2-r0                              apk                          
 libssl3                                   3.5.7-r0                               apk                          
 libstdc++                                 15.2.0-r5                              apk                          
 libsui                                    0.12.6                                 rust-crate                   
