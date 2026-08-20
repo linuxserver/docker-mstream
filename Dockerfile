@@ -50,6 +50,8 @@ RUN \
   fi && \
   npm link && \
   chmod +x /app/mstream/bin/rust-parser/* && \
+  echo "**** bake the p2p discovery sidecar (manifest-pinned, sha256-verified) ****" && \
+  su -s /bin/sh abc -c 'HOME=/tmp node scripts/fetch-p2p-sidecar.mjs' && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   rm -rf \
