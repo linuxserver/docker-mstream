@@ -81,6 +81,7 @@ changelogs:
   - {date: "12.12.23:", desc: "Rebase to Alpine 3.19, move binaries to /app."}
   - {date: "05.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "13.02.23:", desc: "Rebase to Alpine 3.17, migrate to s6v3."}
+  - {date: "20.08.26:", desc: "Bake the p2p discovery sidecar into the image at build time (manifest-pinned, sha256-verified) so discovery works without runtime egress to GitHub."}
   - {date: "05.04.22:", desc: "Move `sync` folder to `/config`."}
   - {date: "02.04.22:", desc: "Rebase to alpine 3.15. Fix ffmpeg download."}
   - {date: "17.05.21:", desc: "Deprecating the env vars `USER`, `PASSWORD` and `USE_JSON` as mStream v5 requires the use of `config.json`."}
