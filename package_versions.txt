@@ -726,7 +726,7 @@ libdvdcss                                 1.4.3-r0                              
 libdvdnav                                 6.1.1-r1                               apk                          
 libdvdread                                6.1.3-r2                               apk                          
 libeconf                                  0.8.3-r0                               apk                          
-libexpat                                  2.8.2-r0                               apk                          
+libexpat                                  2.8.3-r0                               apk                          
 libffi                                    3.5.2-r1                               apk                          
 libffi                                    5.1.0                                  rust-crate                   
 libffi-sys                                4.1.0                                  rust-crate                   
@@ -813,7 +813,7 @@ long                                      5.3.2                                 
 lru-slab                                  0.1.2                                  rust-crate                   
 ls-types                                  0.0.3                                  rust-crate                   
 m3u8-parser                               7.2.0                                  npm                          
-mStream                                   6.21.0.0                               binary                       
+mStream                                   6.21.2.0                               binary                       
 macro_rules_attribute                     0.2.2                                  rust-crate                   
 malva                                     0.12.1                                 rust-crate                   
 markup_fmt                                0.22.0                                 rust-crate                   
@@ -847,7 +847,7 @@ monch                                     0.5.0                                 
 mpdecimal                                 4.0.1-r0                               apk                          
 mpg123-libs                               1.33.5-r0                              apk                          
 ms                                        2.1.3                                  npm                          
-mstream                                   6.21.0                                 npm                          
+mstream                                   6.21.2                                 npm                          
 mstream-webapp                            6.12.0                                 npm                          
 music-metadata                            11.13.0                                npm                          
 musl                                      1.2.6-r2                               apk                          
