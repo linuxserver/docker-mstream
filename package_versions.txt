@@ -40,11 +40,21 @@ NAME                                      VERSION                               
 @number0/iroh                             1.1.0                                  npm                          
 @number0/iroh-linux-x64-gnu               1.1.0                                  npm                          
 @number0/iroh-linux-x64-musl              1.1.0                                  npm                          
+@protobufjs/aspromise                     1.1.2                                  npm                          
+@protobufjs/base64                        1.1.2                                  npm                          
+@protobufjs/codegen                       2.0.5                                  npm                          
+@protobufjs/eventemitter                  1.1.1                                  npm                          
+@protobufjs/fetch                         1.1.1                                  npm                          
+@protobufjs/float                         1.0.2                                  npm                          
+@protobufjs/path                          1.1.2                                  npm                          
+@protobufjs/pool                          1.1.0                                  npm                          
+@protobufjs/utf8                          1.1.2                                  npm                          
 @so-ric/colorspace                        1.1.6                                  npm                          
 @standard-schema/spec                     1.1.0                                  npm                          
 @tokenizer/inflate                        0.4.1                                  npm                          
 @tokenizer/token                          0.3.0                                  npm                          
 @types/node                               16.9.1                                 npm                          
+@types/node                               22.20.3                                npm                          
 @types/triple-beam                        1.3.5                                  npm                          
 @videojs/vhs-utils                        4.1.1                                  npm                          
 DirectML Library                          1.15.4+241025-1615.1.dml-1.15.fac7597  binary      (+1 duplicate)   
@@ -496,6 +506,7 @@ filetime                                  0.2.23                                
 finalhandler                              2.1.1                                  npm                          
 findutils                                 4.10.0-r1                              apk                          
 fixedbitset                               0.5.7                                  rust-crate                   
+flatbuffers                               25.9.23                                npm                          
 flate2                                    1.0.35                                 rust-crate                   
 float-cmp                                 0.9.0                                  rust-crate                   
 fluent-uri                                0.4.1                                  rust-crate                   
@@ -553,6 +564,7 @@ gpu-descriptor                            0.3.2                                 
 gpu-descriptor-types                      0.2.0                                  rust-crate                   
 graphite2                                 1.3.14-r6                              apk                          
 group                                     0.13.0                                 rust-crate                   
+guid-typescript                           1.0.9                                  npm                          
 h2                                        0.3.26                                 rust-crate                   
 h2                                        0.4.7                                  rust-crate                   
 half                                      2.7.1                                  rust-crate                   
@@ -784,10 +796,11 @@ log                                       0.4.27                                
 log                                       0.4.28                                 rust-crate                   
 logform                                   2.7.0                                  npm                          
 lol_html                                  2.6.0                                  rust-crate                   
+long                                      5.3.2                                  npm                          
 lru-slab                                  0.1.2                                  rust-crate                   
 ls-types                                  0.0.3                                  rust-crate                   
 m3u8-parser                               7.2.0                                  npm                          
-mStream                                   6.28.0.0                               binary                       
+mStream                                   6.28.1.0                               binary                       
 macro_rules_attribute                     0.2.2                                  rust-crate                   
 malva                                     0.12.1                                 rust-crate                   
 markup_fmt                                0.22.0                                 rust-crate                   
@@ -821,7 +834,7 @@ monch                                     0.5.0                                 
 mpdecimal                                 4.0.1-r0                               apk                          
 mpg123-libs                               1.33.5-r0                              apk                          
 ms                                        2.1.3                                  npm                          
-mstream                                   6.28.0                                 npm                          
+mstream                                   6.28.1                                 npm                          
 mstream-webapp                            6.12.0                                 npm                          
 music-metadata                            11.15.0                                npm                          
 musl                                      1.2.6-r2                               apk                          
@@ -876,6 +889,7 @@ oniguruma                                 6.9.10-r0                             
 onnxruntime                               1.24.4-r1                              apk                          
 onnxruntime-common                        1.29.0                                 npm                          
 onnxruntime-node                          1.29.0                                 npm                          
+onnxruntime-web                           1.29.0                                 npm                          
 opaque-debug                              0.3.1                                  rust-crate                   
 open                                      5.1.2                                  rust-crate                   
 openssl                                   0.10.72                                rust-crate                   
@@ -932,6 +946,7 @@ pixelmatch                                5.3.0                                 
 pkcs1                                     0.7.5                                  rust-crate                   
 pkcs5                                     0.7.1                                  rust-crate                   
 pkcs8                                     0.10.2                                 rust-crate                   
+platform                                  1.3.6                                  npm                          
 plist                                     1.7.4                                  rust-crate                   
 png                                       0.17.13                                rust-crate                   
 pngjs                                     6.0.0                                  npm                          
@@ -956,6 +971,7 @@ profiling                                 1.0.15                                
 profiling                                 1.0.16                                 rust-crate                   
 prost                                     0.13.3                                 rust-crate                   
 protobuf                                  31.1-r1                                apk                          
+protobufjs                                7.6.6                                  npm                          
 protoc                                    31.1-r1                                apk                          
 proxy-addr                                2.0.7                                  npm                          
 psm                                       0.1.20                                 rust-crate                   
@@ -1253,6 +1269,7 @@ typenum                                   1.17.0                                
 tzdata                                    2026c-r0                               apk                          
 ucd-trie                                  0.1.6                                  rust-crate                   
 uint8array-extras                         1.5.0                                  npm                          
+undici-types                              6.21.0                                 npm                          
 unicase                                   2.7.0                                  rust-crate                   
 unicode-id-start                          1.2.0                                  rust-crate                   
 unicode-ident                             1.0.12                                 rust-crate                   
