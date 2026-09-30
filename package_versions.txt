@@ -703,7 +703,7 @@ libbluray                                 1.4.0-r0                              
 libbsd                                    0.12.2-r0                              apk                          
 libbz2                                    1.0.8-r6                               apk                          
 libc                                      0.2.172                                rust-crate  (+2 duplicates)  
-libcrypto3                                3.5.8-r0                               apk                          
+libcrypto3                                3.5.9-r0                               apk                          
 libcurl                                   8.22.0-r0                              apk                          
 libdav1d                                  1.5.3-r0                               apk                          
 libdbus-sys                               0.2.5                                  rust-crate                   
@@ -737,7 +737,7 @@ libopenmpt                                0.8.9-r0                              
 libpanelw                                 6.6_p20260516-r0                       apk                          
 libpciaccess                              0.19-r0                                apk                          
 libplacebo                                7.360.1-r0                             apk                          
-libpng                                    1.6.58-r1                              apk                          
+libpng                                    1.6.59-r0                              apk                          
 libproc2                                  4.0.6-r0                               apk                          
 libprotobuf                               31.1-r1                                apk                          
 libprotobuf-lite                          31.1-r1                                apk                          
@@ -751,7 +751,7 @@ libsodium                                 1.0.22-r0                             
 libsqlite3-sys                            0.35.0                                 rust-crate                   
 libsrt                                    1.5.3-r1                               apk                          
 libssh                                    0.12.2-r0                              apk                          
-libssl3                                   3.5.8-r0                               apk                          
+libssl3                                   3.5.9-r0                               apk                          
 libstdc++                                 15.2.0-r5                              apk                          
 libsui                                    0.12.6                                 rust-crate                   
 libtheora                                 1.2.0-r1                               apk                          
@@ -893,7 +893,7 @@ onnxruntime-web                           1.29.0                                
 opaque-debug                              0.3.1                                  rust-crate                   
 open                                      5.1.2                                  rust-crate                   
 openssl                                   0.10.72                                rust-crate                   
-openssl                                   3.5.8-r0                               apk                          
+openssl                                   3.5.9-r0                               apk                          
 openssl-probe                             0.1.5                                  rust-crate                   
 openssl-sys                               0.9.108                                rust-crate                   
 opentelemetry                             0.27.0                                 rust-crate                   
