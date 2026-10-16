@@ -282,6 +282,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **31.08.26:** - Bake the p2p discovery sidecar into the image at build time (manifest-pinned, sha256-verified) so discovery works without runtime egress to GitHub.
 * **08.07.26:** - Rebase to Alpine 3.24. Use the distro onnxruntime so the discovery/recommendation features work on musl.
 * **24.04.26:** - Make waveform data persistent.
 * **20.04.26:** - Fix perms on rust binaries.
