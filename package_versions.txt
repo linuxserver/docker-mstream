@@ -229,7 +229,7 @@ bytes                                     1.11.1                                
 bytes                                     3.1.2                                  npm                          
 bytes-str                                 0.2.7                                  rust-crate                   
 c-ares                                    1.34.8-r0                              apk                          
-ca-certificates                           20260909-r0                            apk                          
+ca-certificates                           20261020-r0                            apk                          
 ca-certificates-bundle                    20260909-r0                            apk                          
 cache_control                             0.2.0                                  rust-crate                   
 calendrical_calculations                  0.2.3                                  rust-crate                   
