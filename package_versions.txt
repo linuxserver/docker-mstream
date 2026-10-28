@@ -999,12 +999,12 @@ py3-secretstorage-pyc                     3.5.0-r1                              
 py3-websockets                            16.0-r1                                apk                          
 py3-websockets-pyc                        16.0-r1                                apk                          
 pybind11                                  3.0.1                                  python                       
-pyc                                       3.14.8-r0                              apk                          
+pyc                                       3.14.10-r1                             apk                          
 pycparser                                 3.0                                    python                       
 pycryptodomex                             3.23.0                                 python                       
-python3                                   3.14.8-r0                              apk                          
-python3-pyc                               3.14.8-r0                              apk                          
-python3-pycache-pyc0                      3.14.8-r0                              apk                          
+python3                                   3.14.10-r1                             apk                          
+python3-pyc                               3.14.10-r1                             apk                          
+python3-pycache-pyc0                      3.14.10-r1                             apk                          
 qs                                        6.16.1                                 npm                          
 quick-error                               1.2.3                                  rust-crate                   
 quick-error                               2.0.1                                  rust-crate                   
